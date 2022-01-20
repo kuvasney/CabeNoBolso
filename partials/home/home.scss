@@ -1,0 +1,54 @@
+.pagewrap {
+  // padding: 0;
+  // margin: 0;  
+}
+
+.homeheader {
+  min-width: 100vw;
+  position: relative;
+}
+
+.homeheader__bg {
+  width: 100vw;
+  height: 360px;  
+  position: relative;  
+  z-index: 10;
+
+  img {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.homeheader__hero {
+  position: relative;  
+  margin-top: -200px;
+  z-index: 9;
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.homeheader__content {
+  position: absolute
+}
+
+.homebottom {
+  position: relative;
+  margin-top: -100px;
+  background-color: transparent;
+  
+  .homebottom__bg {
+    width: 100vw;
+    height: 360px;  
+    position: relative;  
+    z-index: 10;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

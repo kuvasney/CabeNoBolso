@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 720 1600"
+   enable-background="new 0 0 720 1600"
+   xml:space="preserve"
+   id="svg1830"
+   sodipodi:docname="bg_home.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata1836"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs1834" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="724"
+   id="namedview1832"
+   showgrid="false"
+   inkscape:zoom="0.59"
+   inkscape:cx="530.51724"
+   inkscape:cy="1082.246"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_3" />
+<g
+   id="Layer_3">
+	<g
+   id="g1738">
+		<defs
+   id="defs1694">
+			
+				<rect
+   id="SVGID_1_"
+   x="919"
+   y="0"
+   transform="matrix(-1 4.922253e-05 -4.922253e-05 -1 2557.8711 1016.5461)"
+   width="719.9"
+   height="1016.6" />
+		</defs>
+		<clipPath
+   id="SVGID_00000007388770783996269960000015783979801764528783_">
+			<use
+   xlink:href="#SVGID_1_"
+   overflow="visible"
+   id="use1696" />
+		</clipPath>
+		<g
+   opacity="0.44"
+   clip-path="url(#SVGID_00000007388770783996269960000015783979801764528783_)"
+   id="g1710">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/E01E6525.png"
+   xlink:href="E01E6525.png"
+   opacity="0.3"
+   id="image1699"
+   transform="matrix(1 0 0 1 415.9275 554.8257)"
+   height="489"
+   width="1421"
+   overflow="visible">
+			</image>
+			<g
+   id="g1708">
+				
+					<linearGradient
+   id="SVGID_00000150061529362653584110000014482338117183722637_"
+   gradientUnits="userSpaceOnUse"
+   x1="17932.873"
+   y1="8107.2607"
+   x2="19291.5371"
+   y2="8107.2607"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop1701" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop1703" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000150061529362653584110000014482338117183722637_)"
+   d="M440.9,693.9c92.2-1.8,171.2,62,240.7,122.6      s147.5,125.2,239.7,125.3c68,0.1,130.1-35.2,191.2-65.2c61-29.9,130.7-55.7,195.7-35.7c34.4,10.6,65.3,33.7,101.2,36.9      c40.4,3.6,80.3-18.7,120.4-12.9c36.9,5.4,66.1,33.3,90.7,61.4c24.6,28.1,48.7,58.9,82.9,73.7c34.3,14.8,82.2,5.9,96.2-28.7      V580.1H440.9V693.9z"
+   id="path1706" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000007388770783996269960000015783979801764528783_)"
+   id="g1723">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/E01E6527.png"
+   xlink:href="E01E6527.png"
+   opacity="0.3"
+   id="image1712"
+   transform="matrix(1 0 0 1 415.9275 379.8257)"
+   height="557"
+   width="1491"
+   overflow="visible">
+			</image>
+			<g
+   id="g1721">
+				
+					<linearGradient
+   id="SVGID_00000111887396350148587240000000236552463574469250_"
+   gradientUnits="userSpaceOnUse"
+   x1="17862.7949"
+   y1="8248.4795"
+   x2="19291.5371"
+   y2="8248.4795"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#FFA5D8"
+   id="stop1714" />
+					<stop
+   offset="1"
+   style="stop-color:#B2D7C9"
+   id="stop1716" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000111887396350148587240000000236552463574469250_)"
+   d="M1869.6,842.1      c-58.7,35.4-134.8,16.9-196.9-12.2c-62.1-29.1-122.2-68.5-190.6-73.4c-68.8-5-135.1,26-203.9,31.8      c-81,6.9-160.4-21.3-238.3-44.6c-77.9-23.3-162.2-42-239.5-16.8c-64.8,21.1-115.9,70.1-170.7,110.6      c-54.8,40.5-122.6,74.6-188.9,58.8V404.3h1428.7V842.1z"
+   id="path1719" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000007388770783996269960000015783979801764528783_)"
+   id="g1736">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/E01E6522.png"
+   xlink:href="E01E6522.png"
+   opacity="0.3"
+   id="image1725"
+   transform="matrix(1 0 0 1 590.9275 526.8257)"
+   height="397"
+   width="1036"
+   overflow="visible">
+			</image>
+			<g
+   id="g1734">
+				
+					<linearGradient
+   id="SVGID_00000163753155597456444100000017097144607427938230_"
+   gradientUnits="userSpaceOnUse"
+   x1="18142.375"
+   y1="8181.689"
+   x2="19116.4551"
+   y2="8181.689"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop1727" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop1729" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000163753155597456444100000017097144607427938230_)"
+   d="M1590.1,551.6      c-29.4,79.1-106.6,138.2-190.7,145.9c-60.8,5.6-120.7-13.6-180.5-26.2c-59.8-12.6-125.7-17.8-178.6,12.7      c-21.2,12.2-39.2,29.6-61,40.7c-72,36.6-160.6-4.8-239.2,13.4c-67.4,15.6-120.7,79.3-124.1,148.4V551.6H1590.1"
+   id="path1732" />
+			</g>
+		</g>
+	</g>
+	<g
+   id="g1826">
+		<defs
+   id="defs1741">
+			<rect
+   id="SVGID_00000069359639297152218670000009439148702716003499_"
+   width="720"
+   height="1600" />
+		</defs>
+		<clipPath
+   id="SVGID_00000049931599770201061210000017183678290597032364_">
+			<use
+   xlink:href="#SVGID_00000069359639297152218670000009439148702716003499_"
+   overflow="visible"
+   id="use1743" />
+		</clipPath>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1757">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6523.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6523.png"
+   opacity="0.3"
+   id="image1746"
+   transform="matrix(1 0 0 1 -587.9058 125.0943)"
+   height="346"
+   width="1414"
+   overflow="visible">
+			</image>
+			<g
+   id="g1755">
+				
+					<linearGradient
+   id="SVGID_00000036945966344371686740000003654739299393704374_"
+   gradientUnits="userSpaceOnUse"
+   x1="18934.1504"
+   y1="8606.9766"
+   x2="20301.0312"
+   y2="8606.9766"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#FFA5D8"
+   id="stop1748" />
+					<stop
+   offset="1"
+   style="stop-color:#B2D7C9"
+   id="stop1750" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000036945966344371686740000003654739299393704374_)"
+   d="M798.3,408.1c-56.2,21.3-129,10.2-188.4-7.4      S493,359.5,427.6,356.6c-65.8-3-129.3,15.6-195,19.1c-77.5,4.1-153.4-12.8-228-26.9c-74.6-14-155.2-25.3-229.2-10.1      c-62,12.7-110.8,42.2-163.3,66.6c-52.4,24.4-117.3,44.9-180.7,35.4V144.4H798.3V408.1z"
+   id="path1753" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1770">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E652D.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E652D.png"
+   opacity="0.3"
+   id="image1759"
+   transform="matrix(1 0 0 1 -301.7352 166.2648)"
+   height="401"
+   width="993"
+   overflow="visible">
+			</image>
+			<g
+   id="g1768">
+				
+					<linearGradient
+   id="SVGID_00000176732553881489772410000006590267257527939475_"
+   gradientUnits="userSpaceOnUse"
+   x1="19077.2539"
+   y1="8540.0049"
+   x2="20009.1582"
+   y2="8540.0049"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop1761" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop1763" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000176732553881489772410000006590267257527939475_)"
+   d="M655.2,190.8      c-28.1,80.3-102,140.3-182.4,148.1c-58.2,5.7-115.5-13.8-172.7-26.5s-120.2-18-170.8,12.9c-20.3,12.4-37.5,30-58.4,41.3      C2,403.6-82.7,361.7-158,380.1c-64.5,15.8-115.4,80.5-118.7,150.6v-340H655.2"
+   id="path1766" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1783">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E652F.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E652F.png"
+   opacity="0.3"
+   id="image1772"
+   transform="matrix(1 0 0 1 -109.7352 -485.7352)"
+   height="834"
+   width="1245"
+   overflow="visible">
+			</image>
+			<g
+   id="g1781">
+				
+					<linearGradient
+   id="SVGID_00000170264532518978282290000017089149644490725264_"
+   gradientUnits="userSpaceOnUse"
+   x1="18633.9844"
+   y1="8975.6123"
+   x2="19817.4297"
+   y2="8975.6123"
+   gradientTransform="matrix(-1 0 0 -1 19732.4355 8900.7646)">
+					<stop
+   offset="0"
+   style="stop-color:#BE9DDF"
+   id="stop1774" />
+					<stop
+   offset="1"
+   style="stop-color:#7EB8DA"
+   id="stop1776" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000170264532518978282290000017089149644490725264_)"
+   d="M1098.5-414.2      C994.7,293,713.8,320.6,595,310.4c-62.8-5.4-122.1-31.7-181.7-53.5s-123.2-39.6-185.1-27.2c-51.9,10.4-100,41.4-152.8,41.2      c-54.7-0.2-107.6-38-128.4-91.7L-85-461.5L1098.5-414.2z"
+   id="path1779" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1796">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
+   opacity="0.3"
+   id="image1785"
+   transform="matrix(1 0 0 1 -321.0444 630.9556)"
+   height="705"
+   width="1493"
+   overflow="visible">
+			</image>
+			<g
+   id="g1794">
+				
+					<linearGradient
+   id="SVGID_00000024703104031032656110000013637403295230410922_"
+   gradientUnits="userSpaceOnUse"
+   x1="4144.5928"
+   y1="3154.0212"
+   x2="5571.0034"
+   y2="3154.0212"
+   gradientTransform="matrix(-1 0 0 -1 5277.0835 4131.2295)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop1787" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop1789" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000024703104031032656110000013637403295230410922_)"
+   d="M1132.5,657.8      c-47,98.7-152.9,162.2-256.9,153.9c-104.9-8.4-201.8-82.1-306.3-69.9c-121.1,14.1-211.7,139.3-333,150.7      C113,904,0.8,794-122.3,807c-81.3,8.6-153.9,76.8-171.6,161.5v328.2h1426.4V657.8z"
+   id="path1792" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1809">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
+   opacity="0.3"
+   id="image1798"
+   transform="matrix(1 0 0 1 -457.0444 671.9556)"
+   height="443"
+   width="1487"
+   overflow="visible">
+			</image>
+			<g
+   id="g1807">
+				
+					<linearGradient
+   id="SVGID_00000137816208987231761260000004891849888562306977_"
+   gradientUnits="userSpaceOnUse"
+   x1="4286.9141"
+   y1="3244.2156"
+   x2="5706.3931"
+   y2="3244.2156"
+   gradientTransform="matrix(-1 0 0 -1 5277.0835 4131.2295)">
+					<stop
+   offset="0"
+   style="stop-color:#FFA5D8"
+   id="stop1800" />
+					<stop
+   offset="1"
+   style="stop-color:#B2D7C9"
+   id="stop1802" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000137816208987231761260000004891849888562306977_)"
+   d="M-429.3,756.6c43.4-60,128.2-69.5,195.6-44.7      c67.3,24.8,122.3,76.4,178.5,122.9C0.9,881.3,63.9,925.4,135,930.5c99.4,7.2,193.3-63,292.5-54.4      c64.8,5.6,126.3,44.7,190.8,36.6c47-5.9,87.7-36.2,125-67.1s74.6-64.3,119.9-78.6s101.7-3.6,126.9,38.8v269.1H-429.3V756.6z"
+   id="path1805" />
+			</g>
+		</g>
+		<g
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   id="g1822">
+			
+				<image
+   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
+   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
+   opacity="0.3"
+   id="image1811"
+   transform="matrix(1 0 0 1 -408.0444 846.9556)"
+   height="816"
+   width="1438"
+   overflow="visible">
+			</image>
+			<g
+   id="g1820">
+				
+					<linearGradient
+   id="SVGID_00000096778930033514633040000006980789323491448988_"
+   gradientUnits="userSpaceOnUse"
+   x1="599.3415"
+   y1="1656.6782"
+   x2="184.9521"
+   y2="1095.5796">
+					<stop
+   offset="0"
+   style="stop-color:#BE9DDF"
+   id="stop1813" />
+					<stop
+   offset="1"
+   style="stop-color:#7EB8DA"
+   id="stop1815" />
+				</linearGradient>
+				<path
+   fill="url(#SVGID_00000096778930033514633040000006980789323491448988_)"
+   d="M-380.5,979.6      c43.1-35.1,103.9-32.6,156.5-18.1c52.6,14.5,103.2,39.4,157.4,44.1c123.5,10.6,236.1-84.8,360-87      c120.2-2.1,234.8,83.9,353.1,61.4c60.1-11.5,112.2-49.7,167.5-77.1c55.4-27.4,123.2-43.3,175.8-10.4v730.1H-380.5V979.6z"
+   id="path1818" />
+			</g>
+		</g>
+		
+			<rect
+   x="2.7"
+   y="-38.6"
+   transform="matrix(-1 -9.526747e-11 9.526747e-11 -1 719.1478 1624.686)"
+   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
+   fill="none"
+   width="713.7"
+   height="1701.9"
+   id="rect1824" />
+	</g>
+</g>
+<g
+   id="Layer_1">
+</g>
+</svg>
