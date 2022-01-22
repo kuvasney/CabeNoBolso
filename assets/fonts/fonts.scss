@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
     src: url('AllRoundGothic/AllRoundGothic-Medium.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
@@ -9,7 +9,39 @@
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
     src: url('AllRoundGothic/AllRoundGothic-MediumOblique.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'all-round-gothic, sans-serif';
+    src: url('AllRoundGothic/AllRoundGothic-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'all-round-gothic, sans-serif';
+    src: url('AllRoundGothic/AllRoundGothic-BookOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'all-round-gothic, sans-serif';
+    src: url('AllRoundGothic/AllRoundGothic-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'all-round-gothic, sans-serif';
+    src: url('AllRoundGothic/AllRoundGothic-DemiOblique.woff') format('woff');
+    font-weight: 600;
     font-style: italic;
     font-display: swap;
 }
@@ -17,7 +49,7 @@
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
     src: url('AllRoundGothic/AllRoundGothic-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -25,7 +57,7 @@
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
     src: url('AllRoundGothic/AllRoundGothic-BoldOblique.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
     font-display: swap;
 }

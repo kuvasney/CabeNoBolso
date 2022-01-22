@@ -3,6 +3,10 @@
   margin: 0;  
 }
 
+.br {
+  display: block;
+}
+
 .homeheader {
   min-width: 100vw;
   position: relative;
@@ -29,7 +33,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(0, -70px);
+    transform: translate(0, -75px);
     width: 100%;
     height: auto;
     // min-height: 27.26vh;
@@ -41,15 +45,28 @@
   top: 0;
   z-index: 90;
   
+  .logo {
+    display: flex;
+    color: #FFF;
+    font-weight: 300;
+    width: 65vw;
+    font-size: 8vw;
+    margin: 1em .5em 0;
+    
+    
+    img {
+      width: 15vw;
+      height: auto;
+      margin-right: 15px;
+
+    }
+  }
 }
 
 .homebottom {
   position: relative;
-  // margin-top: -6.19vh;
   background-color: transparent;
-  width: 100vw;
-  // height: 44%;  
-  
+  width: 100vw;  
   
   .homebottom__bg {
     position: relative;  
@@ -59,5 +76,45 @@
       width: 100%;
       height: auto;
     }
+  }
+
+  .login {    
+    position: absolute;
+    top: calc(12vh + 3em);
+    left: 50%;
+    z-index: 90;    
+    transform: translate(-50%, 0);
+    width: 80%;
+    color: $alt-color;
+
+    .inpReg {
+      width: 100%;
+      padding: 1.7em 1em;
+      font-size: 1em;
+      margin-bottom: 1.5em;
+    }
+
+    .terms {
+      margin-bottom: 2.5em;
+      display: block;
+      font-weight: 300;
+    }
+
+    .btnDefault {
+      width: 100%;
+    }
+  }
+}
+
+.faq {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  z-index: 90;
+  width: 100%;
+
+  a {
+    color: $alt-color;
+    text-decoration: none;
   }
 }

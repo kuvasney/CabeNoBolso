@@ -15,6 +15,7 @@ export default {
 <style lang="scss">
 
   @import url('../assets/fonts/fonts.scss');
+
   html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -34,15 +35,37 @@ export default {
     font-family: 'all-round-gothic, sans-serif';
     font-weight: normal;
     font-size: 1em;
-    // word-spacing: 1px;
     padding: 0;
     margin: 0;
+    color: $gray;
   }
 
   .pagetemplate {
     width: 100%;
-    // min-height: 100vh;
     padding: 0;
     margin: 0;
+  }
+
+  .pForm {
+    margin-bottom: 1em;
+  }
+
+  .inpReg {
+    border-radius: 7px;
+    padding: 1em;
+    height: 40px;
+    border: 0;
+    font-size: 1em;
+    font-family: 'all-round-gothic, sans-serif';
+  }
+
+  .btnDefault {
+    text-align: center;
+    border-radius: 15px;
+    font-size: 2em;
+    border: 0;
+    padding: .8em;
+    font-weight: bold;
+    font-family: 'all-round-gothic, sans-serif';
   }
 </style>
