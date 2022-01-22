@@ -1,29 +1,14 @@
 .pagewrap {
-  // padding: 0;
-  // margin: 0;  
+  padding: 0;
+  margin: 0;  
 }
 
 .homeheader {
   min-width: 100vw;
   position: relative;
-}
-
-.homeheader__bg {
-  width: 100vw;
-  height: 360px;  
-  position: relative;  
+  // height: 19.25%;
   z-index: 10;
-
-  img {
-    width: 100vw;
-    height: auto;
-  }
-}
-
-.homeheader__hero {
-  position: relative;  
-  margin-top: -200px;
-  z-index: 9;
+  
   
   img {
     width: 100%;
@@ -31,18 +16,42 @@
   }
 }
 
+.homeheader__hero {
+  width: 100%;
+  height: 12vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  
+  
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0, -70px);
+    width: 100%;
+    height: auto;
+    // min-height: 27.26vh;
+  }
+}
+
 .homeheader__content {
-  position: absolute
+  position: absolute;
+  top: 0;
+  z-index: 90;
+  
 }
 
 .homebottom {
   position: relative;
-  margin-top: -100px;
+  // margin-top: -6.19vh;
   background-color: transparent;
+  width: 100vw;
+  // height: 44%;  
+  
   
   .homebottom__bg {
-    width: 100vw;
-    height: 360px;  
     position: relative;  
     z-index: 10;
 

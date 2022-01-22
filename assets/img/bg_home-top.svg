@@ -13,17 +13,17 @@
    version="1.1"
    x="0px"
    y="0px"
-   viewBox="0 0 720 567.26477"
+   viewBox="0 0 720 471.0943"
    enable-background="new 0 0 720 1600"
    xml:space="preserve"
    id="svg1830"
    sodipodi:docname="bg_home-top.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    width="720"
-   height="567.26477"><metadata
+   height="471.0943"><metadata
    id="metadata1836"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs1834" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -37,9 +37,9 @@
    inkscape:window-height="724"
    id="namedview1832"
    showgrid="false"
-   inkscape:zoom="0.417193"
-   inkscape:cx="95.735369"
-   inkscape:cy="316.16497"
+   inkscape:zoom="0.834386"
+   inkscape:cx="226.95514"
+   inkscape:cy="184.10165"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
@@ -77,12 +77,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6523.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6523.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1746"
-   transform="translate(-587.9058,125.0943)"
-   height="346"
+   overflow="visible"
    width="1414"
-   overflow="visible">
+   height="346"
+   transform="translate(-587.9058,125.0943)"
+   id="image1746"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1755">
@@ -118,12 +118,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E652D.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E652D.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1759"
-   transform="translate(-301.7352,166.2648)"
-   height="401"
+   overflow="visible"
    width="993"
-   overflow="visible">
+   height="401"
+   transform="translate(-301.7352,166.2648)"
+   id="image1759"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1768">
@@ -159,12 +159,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E652F.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E652F.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1772"
-   transform="translate(-109.7352,-485.7352)"
-   height="834"
+   overflow="visible"
    width="1245"
-   overflow="visible">
+   height="834"
+   transform="translate(-109.7352,-485.7352)"
+   id="image1772"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1781">

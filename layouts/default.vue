@@ -13,6 +13,8 @@ export default {
 }
 </script>
 <style lang="scss">
+
+  @import url('../assets/fonts/fonts.scss');
   html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -29,16 +31,17 @@ export default {
   }
 
   body {
-    font-weight: 400;
+    font-family: 'all-round-gothic, sans-serif';
+    font-weight: normal;
     font-size: 1em;
-    word-spacing: 1px;
+    // word-spacing: 1px;
     padding: 0;
     margin: 0;
   }
 
   .pagetemplate {
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    // min-height: 100vh;
     padding: 0;
     margin: 0;
   }

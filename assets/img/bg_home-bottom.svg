@@ -13,14 +13,14 @@
    version="1.1"
    x="0px"
    y="0px"
-   viewBox="0 0 722.0412 869.60864"
+   viewBox="0 0 720.55084 872.88135"
    enable-background="new 0 0 720 1600"
    xml:space="preserve"
    id="svg1830"
    sodipodi:docname="bg_home-bottom.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   width="722.0412"
-   height="869.60864"><metadata
+   width="720.55084"
+   height="872.88135"><metadata
    id="metadata1836"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
@@ -37,19 +37,34 @@
    inkscape:window-height="724"
    id="namedview1832"
    showgrid="false"
-   inkscape:zoom="0.295"
-   inkscape:cx="265.04978"
-   inkscape:cy="832.9233"
+   inkscape:zoom="1.18"
+   inkscape:cx="370.49017"
+   inkscape:cy="554.73636"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_3" />
+   inkscape:current-layer="Layer_3"
+   showguides="true"
+   inkscape:guide-bbox="true"><sodipodi:guide
+     position="-0.84745765,1158.4745"
+     orientation="1,0"
+     id="guide843"
+     inkscape:locked="false" /><sodipodi:guide
+     position="721.18644,897.45758"
+     orientation="1,0"
+     id="guide845"
+     inkscape:locked="false" /><sodipodi:guide
+     position="594.91525,872.88131"
+     orientation="0,1"
+     id="guide847"
+     inkscape:locked="false" /></sodipodi:namedview>
 <g
    id="Layer_3"
-   transform="translate(1.6949152,-730.50842)">
+   transform="translate(-0.84745765,-727.22833)">
 	
 	<g
-   id="g1826">
+   id="g1826"
+   transform="matrix(1.0076395,0,0,1,-3.4354634,0)">
 		<defs
    id="defs1741">
 			<rect
@@ -81,12 +96,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1785"
-   transform="translate(-321.0444,630.9556)"
-   height="705"
+   overflow="visible"
    width="1493"
-   overflow="visible">
+   height="705"
+   transform="translate(-321.0444,630.9556)"
+   id="image1785"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1794">
@@ -122,12 +137,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1798"
-   transform="translate(-457.0444,671.9556)"
-   height="443"
+   overflow="visible"
    width="1487"
-   overflow="visible">
+   height="443"
+   transform="translate(-457.0444,671.9556)"
+   id="image1798"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1807">
@@ -163,12 +178,12 @@
 				<image
    sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
    xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
-   style="overflow:visible;opacity:0.3"
-   id="image1811"
-   transform="translate(-408.0444,846.9556)"
-   height="816"
+   overflow="visible"
    width="1438"
-   overflow="visible">
+   height="816"
+   transform="translate(-408.0444,846.9556)"
+   id="image1811"
+   style="overflow:visible;opacity:0.3">
 			</image>
 			<g
    id="g1820">
@@ -210,6 +225,6 @@
 </g>
 <g
    id="Layer_1"
-   transform="translate(1.6949152,-730.50842)">
+   transform="translate(-0.84745765,-727.22833)">
 </g>
 </svg>
