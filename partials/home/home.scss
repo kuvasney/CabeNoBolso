@@ -1,4 +1,4 @@
-.pagewrap {
+.pagewrap { 
   padding: 0;
   margin: 0;  
 }
@@ -8,9 +8,8 @@
 }
 
 .homeheader {
-  min-width: 100vw;
+  min-width: 100%;
   position: relative;
-  // height: 19.25%;
   z-index: 10;
   
   
@@ -36,37 +35,23 @@
     transform: translate(0, -75px);
     width: 100%;
     height: auto;
-    // min-height: 27.26vh;
+
+    @include large {
+      transform: translate(0, -135px);
+    }
   }
 }
 
 .homeheader__content {
   position: absolute;
   top: 0;
-  z-index: 90;
-  
-  .logo {
-    display: flex;
-    color: #FFF;
-    font-weight: 300;
-    width: 65vw;
-    font-size: 8vw;
-    margin: 1em .5em 0;
-    
-    
-    img {
-      width: 15vw;
-      height: auto;
-      margin-right: 15px;
-
-    }
-  }
+  z-index: 90;  
 }
 
 .homebottom {
   position: relative;
   background-color: transparent;
-  width: 100vw;  
+  width: 100%;  
   
   .homebottom__bg {
     position: relative;  

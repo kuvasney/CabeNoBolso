@@ -1,0 +1,108 @@
+.payment-method {
+  margin: 2em 0;
+}
+
+.debt-presentation {
+  display: flex;
+  justify-content: space-around;
+  height: 35vw;
+  margin-bottom: 2em;
+
+  .logo {
+    width: 35vw;
+    height: 35vw;
+    max-width: 35%;
+    padding: 1em 0;
+    background-color: $alt-color;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 25vw;
+      height: auto;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+
+    .btnDefault {
+      width: 100%;
+      font-size: 1.1em;
+      
+    }
+
+    .value {
+      display: block;
+      text-align: center;
+      font-size: 2.3em;
+      white-space: nowrap;
+      padding: .2em 0; 
+      font-weight: 700;
+      background: $alt-color;
+      border-radius: 20px;
+    }
+  }
+}
+
+.debt-info {
+  background: $alt-color;
+  border-radius: 20px;
+  padding: 1em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      border-bottom: 1px solid $green2;
+      padding-bottom: 1em;
+      margin-bottom: 1em;
+
+      &:last-child {
+        border: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .title {
+      font-weight: 700;
+      margin-bottom: .5em;      
+    }
+
+    .debtdata {
+      display: flex;
+      flex-wrap: wrap;
+      
+      div {
+        width: 50%;
+      }
+
+      .date {
+        text-align: right;
+      }
+      strong {
+        color: $blue1;
+      }
+  
+    }
+  }
+}
+
+.btnBack {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
