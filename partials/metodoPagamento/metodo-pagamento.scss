@@ -1,3 +1,6 @@
+// $speedboxsizeW: 6.875vw; //110px
+// $speedboxsizeH: 16.10vh; //130px
+
 $speedboxsizeW: 110px;
 $speedboxsizeH: 130px;
 
@@ -214,6 +217,10 @@ $speedboxsizeH: 130px;
     width: $speedboxsizeW;
     height: calc(#{$speedboxsizeH} - 50px);
     position: relative;
+
+    // @include large {
+    //   height: calc(#{$speedboxsizeH} * 2);
+    // }
   }
 }
 
@@ -224,6 +231,11 @@ $speedboxsizeH: 130px;
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  // @include large {
+  //   height: calc(#{$speedboxsizeH} * 2);
+  //   width: calc(#{$speedboxsizeW} * 2);
+  // }
 }
 
 .speedbox__groove {
@@ -238,7 +250,11 @@ $speedboxsizeH: 130px;
     left: 0;
     top: 0;
     z-index: 2;
-    // animation:rotate 4s infinite reverse linear;
+    
+    // @include large {
+    //   height: calc((#{$speedboxsizeH} * 2));
+    //   width: calc(#{$speedboxsizeW} * 2);
+    // }
 
 
     &:before {
@@ -260,6 +276,11 @@ $speedboxsizeH: 130px;
   background: linear-gradient(to right, #ff0000 0%, #ffff00 50%, #00d300 100%);
   border-radius: 50%;  
   z-index: 1;
+
+  // @include large {
+  //   height: calc((#{$speedboxsizeH} * 2) - 50px);
+  //   width: calc(#{$speedboxsizeW} * 2);
+  // }
 }
 
 .speedbox__odo {
@@ -273,6 +294,12 @@ $speedboxsizeH: 130px;
   border-radius: 50%;
   box-sizing: border-box;  
   z-index: 2;
+
+  // @include large {
+  //   height: calc((#{$speedboxsizeH} * 2) -10px);
+  //   width: calc(#{$speedboxsizeW} * 2 - 10px);
+    
+  // }
 }
 
 .speedbox__pointer {
@@ -283,8 +310,13 @@ $speedboxsizeH: 130px;
   top: -10px;
   height: calc(#{$speedboxsizeH} - 20px);
   width: $speedboxsizeW;
-  z-index: 21;  
-  // animation:rotate 4s infinite reverse linear;
+  z-index: 21;
+  
+  // @include large {
+  //   height: calc((#{$speedboxsizeH} * 2) - 30px);
+  //   width: calc(#{$speedboxsizeW} * 2);
+  //   background-size: auto calc((#{$speedboxsizeH}) + 10px);
+  // }
 }
 
 .speedbox__base {
@@ -300,7 +332,19 @@ $speedboxsizeH: 130px;
     width: $speedboxsizeW;
     position: absolute;
     top: 0;
+
+    //  @include large {
+    //   width: calc(#{$speedboxsizeW} * 2);
+    // }
   }
+  
+  // @include large {
+  //   height: $speedboxsizeH;
+  //   width: calc(#{$speedboxsizeW} * 2);
+  //   background-size: 20px auto;
+  //   top: calc(#{$speedboxsizeH} - 10px);
+  // }
+  
 }
 
 .speedbox__pointer {
@@ -314,7 +358,7 @@ $speedboxsizeH: 130px;
 }
 
 .btnBack {
-  position: absolute;
+  position: relative;
   bottom: 1em;
-  right: 1em;
+  float: right;
 }
