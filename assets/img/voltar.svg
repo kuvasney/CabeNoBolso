@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7.4083338mm"
+   height="8.5195827mm"
+   viewBox="0 0 7.4083338 8.5195827"
+   version="1.1"
+   id="svg851"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="voltar.svg">
+  <defs
+     id="defs845" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="-2.7685271"
+     inkscape:cy="15.773501"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="724"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata848">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-62.06369,-95.436637)">
+    <path
+       inkscape:connector-curvature="0"
+       class="st0"
+       d="M 65.926607,95.436637 H 62.85744 v 1.5875 h 3.069167 c 1.084792,0 1.957917,0.873125 1.957917,1.957917 0,1.084796 -0.873125,1.957916 -1.957917,1.957916 H 64.28619 v -1.42875 l -2.2225,2.2225 2.2225,2.2225 v -1.42875 h 1.640417 c 1.957917,0 3.545417,-1.5875 3.545417,-3.545416 0,-1.957917 -1.5875,-3.545417 -3.545417,-3.545417 z"
+       id="path18"
+       style="stroke-width:0.26458332;fill:#049f9c;fill-opacity:1" />
+  </g>
+</svg>

@@ -85,14 +85,22 @@ export default {
     }
   }
 
+  .centered {
+    text-align: center;
+  }
+
   .pagein {
     min-height: 100vh;
-    padding: 1em;
+    padding: 1em 1em 3.5em;
     position: relative;
   }
 
   .pForm {
     margin-bottom: 1em;
+  }
+
+  .hide {
+    display: none;
   }
 
   .money {
@@ -103,7 +111,7 @@ export default {
     display: block;
     text-decoration: none;
     text-align: center;
-    background: url('../assets/img/question.svg') no-repeat center 3px;
+    background: url('../assets/img/voltar.svg') no-repeat center 3px;
     background-size: auto 6vw;
     padding-top: 8vw;
     font-size: .8em;
@@ -114,7 +122,12 @@ export default {
     border: 2px solid $purple2;
     color: $green1;
     border-radius: 20%;
+  }
 
+  .boxRounded {
+    background: $alt-color;
+    border-radius: 20px;
+    padding: 1em;
   }
 
   .inpReg {
@@ -129,13 +142,19 @@ export default {
   .btnDefault {
     text-align: center;
     border-radius: 15px;
-    font-size: 2em;
     border: 0;
+    font-size: 2em;
     padding: .6em 1em;
     font-weight: bold;
     font-family: 'all-round-gothic, sans-serif';
     background-color: $green2;
     color: $blue1;
+
+    &.smaller {
+      font-size: 1.5em;
+      padding: .15em;
+      border-radius: 10px;
+    }
   }
 
   .main-title {
@@ -144,5 +163,12 @@ export default {
     font-size: 12vw;
     line-height: 1em;
     width: 70%;
+  }
+
+  .section-title {
+    color: $blue1;
+    font-weight: 600;
+    font-size: 9vw;
+    line-height: 1em;
   }
 </style>

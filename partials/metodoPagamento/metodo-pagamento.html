@@ -5,9 +5,9 @@
       Método de pagamento
     </h1>
   </section>
-  <section class="payment-method">
+  <section class="payment-method hide">
     <div class="debt-presentation">
-      <div class="logo">
+      <div class="companyLogo">
         <img src="../../assets/img/logos/claro-movel.svg" alt="Claro Movel">
       </div>
       <div class="info">
@@ -81,6 +81,48 @@
           </div>
         </li>
       </ul>
+    </div>
+  </section>
+  <section class="payment-setup">
+    <div class="boxRounded payment-setup__value">
+      <div class="companyLogo">
+        <img src="../../assets/img/logos/claro-movel.svg" alt="Claro TV">
+      </div>
+      <div class="value">
+        <p class="money purple2">
+          R$ 3180,50
+        </p>
+      </div>
+    </div>
+
+    <div class="boxRounded gadget">
+      <h2 class="section-title centered">
+        Quanto você quer pagar por mês?
+      </h2>
+
+      <div class="payment_gadget">
+        <div class="value">
+          <p class="value__p">
+            <span>R$</span> <input type="number" class="money green1" :value="paymentGadget.parcel" min="50" :max="paymentGadget.debtValue">
+          </p>
+          <input type="range" class="slider" step="0.5" :min="paymentGadget.minValue" max="paymentGadget.maxValue" v-model="gadgetValue" :change="parcelValue(gadgetValue)">
+        </div>
+        <div class="thermometer">
+          <div class="speedbox">
+            <div class="speedbox__score"></div>
+            <!-- range 315deg a 435deg -->
+            <div class="speedbox__groove" :style="{transform: 'rotate('+speedometer.groove+'deg)'}"></div>
+            <div class="speedbox__odo"></div>
+            <!-- range -110deg a 110deg -->
+            <div class="speedbox__pointer" :style="{transform: 'rotate('+speedometer.pointer+'deg)'}"></div>
+            <div class="speedbox__base"></div>
+          </div>
+        </div>
+        <p class="caption">Chance de sua proposta ser aceita</p>
+      </div>
+      <button class="btnDefault smaller bgblue6">
+        Enviar Proposta
+      </button>
     </div>
   </section>
   <a href="" class="btnBack">

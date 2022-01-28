@@ -1,3 +1,6 @@
+$speedboxsizeW: 110px;
+$speedboxsizeH: 130px;
+
 .payment-method {
   margin: 2em 0;
 }
@@ -8,7 +11,7 @@
   height: 35vw;
   margin-bottom: 2em;
 
-  .logo {
+  .companyLogo {
     width: 35vw;
     height: 35vw;
     max-width: 35%;
@@ -99,6 +102,215 @@
   
     }
   }
+}
+
+.payment-setup {
+
+  .boxRounded {    
+    margin: 1em 0;
+  }
+}
+
+.payment-setup__value {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  
+  .companyLogo {
+    width: 35vw;
+    align-self: center;
+  
+    img {
+      width: 25vw;
+    }
+  }
+  
+  .value {
+    font-size: 2.5em;
+    font-weight: 700;
+    align-self: center;
+  }
+}
+
+.gadget {
+
+  .section-title {
+    margin: .5em 0 1em;
+  }
+
+  .btnDefault {
+    width: 100%;
+  }
+}
+
+.payment_gadget {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1.5em 0;
+  
+  .caption {
+      font-size: 1.1em;
+      font-weight: 700;
+      position: relative;
+      z-index: 25;
+      text-align: right;
+      width: 100%;
+    }
+
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;    
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      background: $purple2;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+
+    &::-moz-range-thumb {
+      width: 15px;
+      height: 15px;
+      background: $purple2;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .value {
+    width: 60%;
+    
+    span {
+      font-size: 2em;
+    }
+  }
+
+  .value__p {
+    display: flex;
+  }
+
+  input.money {
+    font-family: 'all-round-gothic, sans-serif';
+    border: 0;
+    font-size: 2em;
+    font-weight: 700;
+    width: auto;
+  }
+
+  
+
+  .thermometer {
+    width: $speedboxsizeW;
+    height: calc(#{$speedboxsizeH} - 50px);
+    position: relative;
+  }
+}
+
+.speedbox {
+  height: $speedboxsizeH;
+  width: $speedboxsizeW;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.speedbox__groove {
+    height: calc(#{$speedboxsizeH} - 20px);
+    width: $speedboxsizeW;
+    border-radius: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #d8d8d6 #d8d8d6 transparent transparent;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    // animation:rotate 4s infinite reverse linear;
+
+
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    // margin: 5px; 
+    border-radius: inherit;
+  }
+}
+
+.speedbox__score {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: calc(#{$speedboxsizeH} - 20px);
+  width: $speedboxsizeW;
+  background: linear-gradient(to right, #ff0000 0%, #ffff00 50%, #00d300 100%);
+  border-radius: 50%;  
+  z-index: 1;
+}
+
+.speedbox__odo {
+  position: absolute;
+  background: white;
+  background-size: auto 90px;
+  left: 10px;
+  top: 10px;
+  height: calc(#{$speedboxsizeH} - 40px);
+  width: calc(#{$speedboxsizeW} - 20px);
+  border-radius: 50%;
+  box-sizing: border-box;  
+  z-index: 2;
+}
+
+.speedbox__pointer {
+  position: absolute;
+  background: transparent url('../../assets/img/speedpointer.svg') no-repeat center top;
+  background-size: auto calc((#{$speedboxsizeH} /2) + 10px);
+  left: 0;
+  top: -10px;
+  height: calc(#{$speedboxsizeH} - 20px);
+  width: $speedboxsizeW;
+  z-index: 21;  
+  // animation:rotate 4s infinite reverse linear;
+}
+
+.speedbox__base {
+  width: $speedboxsizeW;
+  height: calc(#{$speedboxsizeH}/2);
+  background: white url('../../assets/img/speedtriang.svg') no-repeat center 10px;
+  background-size: 10px auto;
+  position: relative;
+  top: calc(#{$speedboxsizeH}/2 - 10px);
+  z-index: 20;
+  &:before {
+    content: '';
+    width: $speedboxsizeW;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.speedbox__pointer {
+  // transform: rotate(5deg);
+  // transition: transform .3s ease;
+}
+
+.speedbox__groove {
+  // transform: rotate(50deg);
+  // transition: transform .3s ease;
 }
 
 .btnBack {
