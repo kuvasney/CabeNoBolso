@@ -17,7 +17,7 @@
     <div class="homebottom__bg">
       <img src="../../assets/img/bg_home-bottom.svg" alt="">
     </div>
-    <form class="login">
+    <form class="login" @submit.prevent="login()">
       <p class="pForm">
         <label class="hide" for="Digite seu CPF"></label>
         <input type="text" class="inpReg" placeholder="Digite seu CPF">

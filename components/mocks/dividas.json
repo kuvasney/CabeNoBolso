@@ -1,0 +1,29 @@
+[
+  {
+    "productName": "Claro móvel",
+    "productId": 1,
+    "productImg": "claro-movel",
+    "debt": {
+      "value": 2531.00,
+      "duedate": "2021-11-25"
+    }
+  },
+  {
+    "productName": "Claro tv",
+    "productId": 2,
+    "productImg": "claro-tv",
+    "debt": {
+      "value": 234.33,
+      "duedate": "2021-11-25"
+    }
+  },
+  {
+    "productName": "Claro residencial",
+    "productId": 3,
+    "productImg": "claro-residencial",
+    "debt": {
+      "value": 99.89,
+      "duedate": "2021-11-25"
+    }
+  }
+]
