@@ -122,6 +122,9 @@ export default {
     border: 2px solid $purple2;
     color: $green1;
     border-radius: 20%;
+    position: relative;
+    bottom: 1em;
+    float: right;
   }
 
   .boxRounded {
@@ -155,6 +158,11 @@ export default {
       padding: .15em;
       border-radius: 10px;
     }
+
+    &.transparent {
+      background-color: $alt-color;
+      border: 1px solid $blue4;
+    }
   }
 
   .main-title {
@@ -170,5 +178,31 @@ export default {
     font-weight: 600;
     font-size: 9vw;
     line-height: 1em;
+  }
+
+  // TRANSITIONS
+  .slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active em versões anteriores a 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+
+  .reveal-down-enter-active {
+    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .reveal-down-leave-active {
+    transition: all .3s ease;
+    transform: translate(0, -160px);
+    opacity: 0;
+  }
+  .reveal-down-enter, .reveal-down-leave-to
+  /* .slide-fade-leave-active em versões anteriores a 2.1.8 */ {
+    opacity: 0;
   }
 </style>

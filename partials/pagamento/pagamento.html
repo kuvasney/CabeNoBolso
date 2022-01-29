@@ -1,0 +1,60 @@
+<div class="pagewrap pagein">
+
+  <section class="page-title">
+    <h1 class="main-title">
+      Método de pagamento
+    </h1>
+    <div class="boxRounded payment">
+      <div class="debtReview">
+        <p>
+          Valor total
+          <strong class="money blue1">
+            {{ 3458.66 | toMoney }}
+          </strong>
+        </p>
+
+        <p class="toright">
+          Parcelas
+          <strong class="money blue1">
+            15x {{ 38.12 | toMoney }}
+          </strong>
+        </p>
+      </div>
+      <div class="boleto">
+        <img src="../../assets/img/boleto.svg" alt="">
+        <p class="green1">Boleto</p>
+      </div>
+      <form @submit.prevent="handleDeal" class="formDeal">
+        <p class="pForm">
+          <label for="dueDate" class="lblDate blue1">
+            Escolha a malehor data para seu pagamento
+          </label>
+          <input type="date" id="dueDate">
+        </p>
+  
+        <p class="pForm">
+          <label for="email" class="hide">
+            E-mail
+          </label>
+          <input type="e-mail" id="email" placeholder="e-mail">
+        </p>
+  
+        <p class="pForm">
+          <label for="phone" class="hide">
+            Telefone com DDD
+          </label>
+          <input type="text" id="phone" placeholder="telefone com DDD">
+        </p>
+  
+        <div class="btnHolder">
+          <button class="btnDefault smaller" type="submit">
+            Concluir acordo
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <nuxt-link to="/metodo-de-pagamento" class="btnBack">
+    Voltar
+  </nuxt-link>  
+</div>
