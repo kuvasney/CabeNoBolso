@@ -132,12 +132,56 @@
         </div>
         <p class="caption">Chance de sua proposta ser aceita</p>
       </div>
-      <button class="btnDefault smaller bgblue6">
+      <button class="btnDefault smaller bgblue6" @click="openModal()">
         Enviar Proposta
       </button>
     </div>
   </section>
-  <a href="" class="btnBack">
+  <CnbModal ref="proposalModal">
+    <div class="boxRounded proposal" v-if="proposalStaus===3">
+      <p class="section-title">
+        Sua proposta foi aceita em
+        <strong class="green1">
+          3x de <span class="money">R$ 900,00</span>
+        </strong>
+      </p>
+      <button class="btnDefault bgblue4 smaller" @click="dealOk()">
+        Confirmar Acordo
+      </button>
+      <button class="btnDefault transparent smaller" @click="closeModal()">
+        Rever proposta
+      </button>
+    </div>
+    <div class="boxRounded proposal proposal-evaulated" v-else-if="proposalStaus===2">
+      <p>
+        Sua proposta será enviada para análise e pode demorar até 48h dependendo da chance dela ser aceita.
+      </p>
+      <p>
+        Quanto melhor a chance, menor o tempo de espera.
+      </p>
+      <p class="section-title">
+        Deseja continuar?
+      </p>
+      <button class="btnDefault bgblue4 smaller" @click="closeModal()">
+        Rever proposta
+      </button>
+      <button class="btnDefault transparent smaller">
+        Sim
+      </button>
+    </div>
+    <div class="boxRounded proposal proposal-denied" v-else>
+      <p class="section-title">
+        Sua proposta não foi aceita!
+      </p>
+      <button class="btnDefault bgblue4 smaller" @click="closeModal()">
+        Enviar nova proposta
+      </button>
+      <button class="btnDefault transparent smaller">
+        Veja nossas ofertas
+      </button>
+    </div>
+  </CnbModal>
+  <nuxt-link to="/minhas-dividas" class="btnBack">
     Voltar
-  </a>
+  </nuxt-link>
 </div>
