@@ -153,7 +153,8 @@ $speedboxsizeH: 130px;
   margin: 1.5em 0;
   
   .caption {
-      font-size: 1.1em;
+      font-size: 1em;
+      white-space: nowrap;
       font-weight: 700;
       position: relative;
       z-index: 25;
@@ -208,7 +209,7 @@ $speedboxsizeH: 130px;
     border: 0;
     font-size: 2em;
     font-weight: 700;
-    width: auto;
+    width: 70%;
   }
 
   

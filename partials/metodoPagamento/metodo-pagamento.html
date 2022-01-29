@@ -90,7 +90,7 @@
       </div>
       <div class="value">
         <p class="money purple2">
-          R$ 3180,50
+          {{ debtValue | toMoney }}
         </p>
       </div>
     </div>
@@ -103,9 +103,21 @@
       <div class="payment_gadget">
         <div class="value">
           <p class="value__p">
-            <span>R$</span> <input type="number" class="money green1" :value="paymentGadget.parcel" min="50" :max="paymentGadget.debtValue">
+            <span>R$</span> 
+            
+            <input type="number" class="money green1" 
+            step="0.50"
+            v-model="paymentGadget.parcel"
+            min="50"            
+            :max="debtValue"
+            placeholer="0.00"
+            @input="parcelValue(paymentGadget.parcel, gadgetValue, 1)">
           </p>
-          <input type="range" class="slider" step="0.5" :min="paymentGadget.minValue" max="paymentGadget.maxValue" v-model="gadgetValue" :change="parcelValue(gadgetValue)">
+          
+          <input type="range" class="slider" 
+          step="0.5"
+          v-model="gadgetValue"
+          @change="parcelValue(debtValue, gadgetValue, 2)">
         </div>
         <div class="thermometer">
           <div class="speedbox">
