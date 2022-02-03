@@ -9,11 +9,16 @@
         </strong>
       </p>
     </div>
+    <CnbNav />
   </div>
 </template>
 
 <script>
+import CnbNav from '@/components/nav'
 export default {
-  name: 'cnbHeader'
+  name: 'CnbHeader',
+  components: {
+    CnbNav
+  }
 }
 </script>

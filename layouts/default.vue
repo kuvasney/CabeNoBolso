@@ -59,6 +59,8 @@ export default {
   .page-header {
     padding: 1em 0;
     height: 22vh;
+    display: flex;
+    justify-content: space-between;
   }
 
   .cnb-logo {
@@ -82,6 +84,16 @@ export default {
       @include large {
         width: 35%;
       }
+    }
+  }
+
+  .mainNav {
+    align-self: center;
+    margin-right: 1em;
+
+    .btnNav {
+      border: 0;
+      background-color: transparent;
     }
   }
 
