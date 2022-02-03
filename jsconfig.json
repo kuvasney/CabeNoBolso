@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "https://rafael.abc.br/work/CabeNoBolso/",
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"],

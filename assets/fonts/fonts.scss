@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-Medium.woff') format('woff');
+    font-family: 'all-round-gothic, sans-serif';    
+    src: url('AllRoundGothic/AllRoundGothic-Medium.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-Medium.otf') format('otf');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -8,7 +9,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-MediumOblique.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-MediumOblique.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-MediumOblique.otf') format('otf');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -16,7 +18,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-Book.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-Book.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-Book.otf') format('otf');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -24,7 +27,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-BookOblique.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-BookOblique.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-BookOblique.otf') format('otf');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -32,7 +36,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-Demi.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-Demi.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-Demi.otf') format('otf');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -40,7 +45,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-DemiOblique.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-DemiOblique.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-DemiOblique.otf') format('otf');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -48,7 +54,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-Bold.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-Bold.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-Bold.otf') format('otf');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -56,7 +63,8 @@
 
 @font-face {
     font-family: 'all-round-gothic, sans-serif';
-    src: url('AllRoundGothic/AllRoundGothic-BoldOblique.woff') format('woff');
+    src: url('AllRoundGothic/AllRoundGothic-BoldOblique.woff') format('woff'),
+    url('AllRoundGothic/AllRoundGothic-BoldOblique.otf') format('otf');
     font-weight: 700;
     font-style: italic;
     font-display: swap;
