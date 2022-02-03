@@ -1,7 +1,7 @@
 <template>
   <div class="mainNav">
     <button :class="{navOn: navIsOn}" class="btnNav" @click="openNav()">
-      <img src="../assets/img/menu.svg" alt="Menu">
+      Menu
     </button>
     <nav v-show="navIsOn" class="mainNav__links">
       <ul>
@@ -50,14 +50,29 @@ export default {
 </script>
 <style lang="scss">
 .btnNav {
-  padding: 1.5em 1.5em 1em;
+  width: 12vw;
+  height: 12vw;
+  border: 0;
+  background-color: transparent;
+  background-image: url('../assets/img/menu.svg');
+  background-size: 70% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -999em;
 
   &.navOn {
+    background-image: url('../assets/img/menu_on.svg');
     background-color: $alt-color;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
 }
+
+.mainNav {
+  align-self: center;
+  margin-right: 1em;
+}
+
 .mainNav__links {
   position: absolute;
   right: 1em;
@@ -67,6 +82,7 @@ export default {
   width: 90vw;
   padding: 1em;
   z-index: 9999;
+  margin-top: -2px;
 
   ul {
     list-style: none;

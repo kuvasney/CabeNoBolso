@@ -85,15 +85,9 @@ export default {
         width: 35%;
       }
     }
-  }
 
-  .mainNav {
-    align-self: center;
-    margin-right: 1em;
-
-    .btnNav {
-      border: 0;
-      background-color: transparent;
+    p {
+      align-self: center;
     }
   }
 
