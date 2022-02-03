@@ -1,0 +1,51 @@
+<div class="pagewrap pagein">
+
+  <section class="page-title">
+    <h1 class="main-title">
+      Acordo registrado
+    </h1>
+  </section>
+  <div class="dealInfo">
+    <div class="boxRounded boxboleto">
+      <div class="boleto">
+        <img src="../../assets/img/boleto.svg" alt="">
+        <p class="green1">Boleto</p>
+      </div>
+    </div>
+    <div class="info">
+      <div class="dealNum bgpurple2">
+        <strong>
+          Acordo
+        </strong>
+        3254
+      </div>
+      <div class="dateInfo">
+        <span>
+          Vencimento da primeira parcela
+        </span>
+        <strong class="blue1">
+          30/12
+        </strong>
+      </div>
+    </div>
+  </div>
+  <div class="boxRounded boxBarCode">
+    <img src="../../assets/img/cod.svg" alt="Código de Barras">
+    <h4 class="blue1">
+      Linha Digitável
+    </h4>    
+    <textarea cols="5" readonly rows="2" id="barCode">34191.09917 74014.050160 62793.980004 2 82820000046500</textarea>
+  </div>
+  <div class="btnWrap">
+    <button class="btnDefault smaller" :class="{'copyButton transparent': !copied, 'copyButton bgpurple4 altcolor': copied}" @click="copyCode(linhaDigitavel)">
+      {{ copied ? 'Copiado!' : 'Copiar linha digitável'}}
+    </button>
+    <a href="" download="boleto.pdf" class="btnDefault smaller boletoDownload"
+      id="boleto-opener" target="_blank">
+      Gerar boleto
+    </a>
+  </div>
+  <nuxt-link to="/minhas-dividas" class="btnBack">
+    Voltar
+  </nuxt-link>
+</div>

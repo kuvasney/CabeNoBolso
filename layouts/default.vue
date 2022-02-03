@@ -150,6 +150,7 @@ export default {
     padding: .6em 1em;
     font-weight: bold;
     font-family: 'all-round-gothic, sans-serif';
+    text-decoration: none;
     background-color: $green2;
     color: $blue1;
 
