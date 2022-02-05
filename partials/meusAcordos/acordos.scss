@@ -1,0 +1,191 @@
+.deals {
+  margin: 2em auto;
+}
+
+
+.cnbDeal {
+  margin-bottom: 1em;
+  background-color: $alt-color;
+  border-radius: 20px;
+  font-size: 1.1em;
+  position: relative;
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-image: url("../../assets/img/close_alt.svg");    
+    background-size: cover;
+    transform: rotate(45deg);
+    transition: all .2s linear;
+
+
+    &.isActive {
+      background-image: url("../../assets/img/close_alt.svg");
+      transform: rotate(90deg);      
+    }
+  }
+}
+
+.cnbDeal__maininfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding: .5em;
+}
+
+.cnbDeal__section {
+  width: 50%;
+  align-self: center;
+
+  .money {
+    font-size: 1.3em;
+  }
+}
+
+.cnbDeal__logo {
+  text-align: right;
+  padding: 0 1em;
+}
+
+.cnbDeal__id {
+  width: 100%;
+  text-align: center;
+  color: $purple2;
+  background: $purple4;
+  padding: .3em;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.cbnDeal__installments {
+  width: 100%;
+  margin: 1em auto;
+
+  ul {
+    list-style: none;
+    padding: 0;    
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;    
+    width: 100%;
+
+    li {
+      position: relative;
+      z-index: 10;
+      
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 300px;
+        height: 2px;
+        background: $green1;
+        position: absolute;
+        left: 6vw;
+        top: 50%;
+        transform: translate(0, -50%);
+        z-index: 9;
+      }
+
+      &:last-child {
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .installment-status {
+    width: 6.3vw;
+    height: 6.3vw;    
+    border-radius: 6vw;
+    background-image: url('../../assets/img/cabenobolso_logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999em;
+    display: block;    
+
+    &.paga {
+      border: 2px solid $green1;
+      background-color: $green1;
+    }
+
+    &.aberta {
+      border: 2px solid $green1;
+      background-color: $alt-color;
+    }
+
+    &.atrasada {
+      border: 2px solid $green1;
+      background-color: $alt-color;
+    }
+  }
+}
+
+.cnbDeal__installments {
+  padding: 1em;
+  font-weight: 700;
+
+  .installment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin: 1em 0;
+    border-bottom: 2px solid rgba($green2, .5);
+
+    .lside {
+      width: 40%;
+    }
+
+    .ride {
+      width: 60%;
+    }
+
+    .btnHolder {
+      width: 100%;
+      margin: 1em 0;
+
+      button {
+        width: 100%;
+        font-size: 1em;
+      }
+    }
+  }
+
+  .lside.money {
+    text-align: right;
+    font-size: 1.4em;
+  }
+
+  .paymentStatus {
+
+    padding-left: 1em;
+    span {
+      font-weight: 300;
+      font-size: .7em;
+      color: $alt-color;
+      background-color: $purple2;
+      padding: .5em;
+      border-radius: 5px;
+      text-transform: capitalize;
+      
+      &.paga {
+        background-color: $green1;
+      }
+  
+      &.atrasada {
+        background-color: $gray;
+      }
+    }
+
+    
+  }
+}

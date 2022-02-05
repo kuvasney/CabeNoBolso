@@ -1,0 +1,70 @@
+<div class="pagewrap pagein">
+
+  <section class="page-title">
+    <h1 class="main-title">
+      Meus Acordos
+    </h1>
+  </section>
+  <div class="deals">
+    <div :class="{'isActive' : activeDeal == index }" class="cnbDeal" v-for="(deal, index) in deals" @click="setActiveDeal(index)">
+      <i :class="{'isActive' : activeDeal == index }" class="icon"></i>
+      <h2 class="cnbDeal__id">
+        <strong>Acordo</strong> {{ deal.dealId }}
+      </h2>
+      <div class="cnbDeal__maininfo" :class="{'dealClosed': deal.dealStatus == 'Fechado'}">
+        <div class="cnbDeal__section">
+          <p>
+            Valor restante
+            <span class="money blue1 br">
+              R$ 487,00
+            </span>
+          </p>
+          <p>
+            <strong> Data </strong> <span class="date blue1"> {{ deal.dealDate }}</span>
+          </p>
+        </div>
+        <div class="cnbDeal__logo cnbDeal__section">
+          <img :src="getProductLogo(deal.productImg)" :alt="deal.productName">
+        </div>        
+        
+        <div class="cbnDeal__installments">
+          <p>
+            Parcelas quitadas
+          </p>
+          <ul>
+            <li v-for="(inst, i) in deal.dealInstallments">
+              <i :class="inst.status" class="installment-status">
+              <span class="hide">{{ inst.status }}</span>
+              </i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cnbDeal__installments" v-show="activeDeal == index">
+        <div class="installment" v-for="(installment, ind) in deal.dealInstallments" v-if="installment.status !== 'paga'">
+          <p class="lside">
+            {{ installment.installmentNum }}ª Parcela
+          </p>
+          <p class="rside">
+            Vencimento: <strong class="green1"> {{ installment.dueDate }}</strong>
+          </p>
+          <p class="lside paymentStatus">
+            <span :class="installment.status">
+              {{ installment.status }}
+            </span>
+          </p>
+          <p class="lside money">
+            <span class="blue1">
+              {{ installment.value |toMoney }} {{ ind }}
+            </span>
+          </p>
+          <div class="btnHolder">
+            <button class="btnDefault smaller bgblue1 altcolor" v-if="installment.status !== paga">
+              Pagar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

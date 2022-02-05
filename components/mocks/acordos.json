@@ -1,0 +1,91 @@
+{
+  "Deals": [
+    {
+      "dealId": "3258",
+      "productName": "Claro móvel",
+      "productId": 1,
+      "productImg": "claro-movel",
+      "dealValue": 457.65,
+      "dealDate": "2022-01-30",
+      "dealStatus": "Aberto",
+      "dealInstallments": [
+        {
+          "installmentNum": 1,
+          "dueDate": "2022-02-04",
+          "value": 91.53,
+          "status": "paga"
+        },
+        {
+          "installmentNum": 2,
+          "dueDate": "2022-03-04",
+          "value": 91.53,
+          "status": "aberta"
+        },
+        {
+          "installmentNum": 3,
+          "dueDate": "2022-04-04",
+          "value": 91.53,
+          "status": "aberta"
+        },
+        {
+          "installmentNum": 4,
+          "dueDate": "2022-04-04",
+          "value": 91.53,
+          "status": "aberta"
+        },
+        {
+          "installmentNum": 5,
+          "dueDate": "2022-05-04",
+          "value": 91.53,
+          "status": "aberta"
+        }
+      ]
+    },
+    {
+      "dealId": "1254896",
+      "productName": "Claro Tv",
+      "productId": 2,
+      "productImg": "claro-tv",
+      "dealValue": 8265.54,
+      "dealDate": "2021-11-28",
+      "dealStatus": "Aberto",
+      "dealInstallments": [
+        {
+          "installmentNum": 1,
+          "dueDate": "2021-11-30",
+          "value": 8265.54,
+          "status": "atrasada"
+        }
+      ]
+    },
+    {
+      "dealId": "32",
+      "productName": "Claro residencial",
+      "productId": 3,
+      "productImg": "claro-residencial",
+      "dealValue": 665.16,
+      "dealDate": "2021-11-28",
+      "dealStatus": "Fechado",
+      "dealInstallments": [
+        {
+          "installmentNum": 1,
+          "dueDate": "2021-11-30",
+          "value": 221.72,
+          "status": "paga"
+        },
+        {
+          "installmentNum": 2,
+          "dueDate": "2021-12-30",
+          "value": 221.72,
+          "status": "paga"
+        },
+        {
+          "installmentNum": 3,
+          "dueDate": "2022-01-30",
+          "value": 221.72,
+          "status": "paga"
+        }
+      ]
+    }
+  ]
+}

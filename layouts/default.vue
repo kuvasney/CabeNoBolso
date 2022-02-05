@@ -95,6 +95,10 @@ export default {
     text-align: center;
   }
 
+  .br {
+    display: block;
+  }
+
   .pagein {
     min-height: 100vh;
     padding: 1em 1em 3.5em;
