@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port 3030",
+    "vdev-nodata": "NUXT_ENV_SETUP=nodata nuxt --port 3030",
     "build": "nuxt build",
     "start": "nuxt start",
     "vdev": "NUXT_ENV_SETUP=dev nuxt --hostname localcabenobolso.com.br --port 3030",

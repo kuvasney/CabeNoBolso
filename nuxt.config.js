@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Cabe No Bolso',
+    title: 'Cabe No Bolso' || process.env.npm_package_name,
     htmlAttrs: {
       lang: 'pt-BR'
     },
@@ -16,12 +16,19 @@ export default {
     ]
   },
   target: 'static',
+  port: 3030,
+  /**
+   * environment variables
+  */
+  env: {
+    PACKAGE_VERSION: '"' + process.env.npm_package_version + '"',
+    PACKAGE_NAME: '"' + process.env.npm_package_name + '"'
+  },
   styleResources: {
     scss: [
       './assets/scss/*.*'
     ]
   },
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/filters.js'
@@ -48,7 +55,9 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/'
   },
-
+  router: {
+    base: '/work/CabeNoBolso'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     publicPath: 'https://rafael.abc.br/work/CabeNoBolso/'
