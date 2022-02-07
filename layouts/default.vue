@@ -176,6 +176,12 @@ export default {
     }
   }
 
+  .listDefault {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   .main-title {
     color: $blue1;
     font-weight: 600;

@@ -19,7 +19,7 @@
           "installmentNum": 2,
           "dueDate": "2022-03-04",
           "value": 91.53,
-          "status": "aberta"
+          "status": "paga"
         },
         {
           "installmentNum": 3,
@@ -39,6 +39,26 @@
           "value": 91.53,
           "status": "aberta"
         }
+      ],
+      "dealDetails": [
+        {
+          "description": "Fatura 1",
+          "id": "325485622",
+          "value": 150.35,
+          "date": "2020-01-19"
+        },
+        {
+          "description": "Fatura Claro",
+          "id": "325485655",
+          "value": 50.75,
+          "date": "2020-02-19"
+        },
+        {
+          "description": "Multa",
+          "id": "325485655",
+          "value": 1.45,
+          "date": "2020-02-19"
+        }
       ]
     },
     {
@@ -55,6 +75,14 @@
           "dueDate": "2021-11-30",
           "value": 8265.54,
           "status": "atrasada"
+        }
+      ],
+      "dealDetails": [
+        {
+          "description": "Combo Multi",
+          "id": "325485622",
+          "value": 540.35,
+          "date": "2020-01-19"
         }
       ]
     },
@@ -84,6 +112,20 @@
           "dueDate": "2022-01-30",
           "value": 221.72,
           "status": "paga"
+        }
+      ],
+      "dealDetails": [
+        {
+          "description": "Assinatura",
+          "id": "325485622",
+          "value": 150.35,
+          "date": "2020-01-19"
+        },
+        {
+          "description": "Assinatura serviços",
+          "id": "325485655",
+          "value": 50.75,
+          "date": "2020-02-19"
         }
       ]
     }

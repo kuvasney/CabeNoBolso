@@ -6,8 +6,8 @@
     </h1>
   </section>
   <div class="deals">
-    <div :class="{'isActive' : activeDeal == index }" class="cnbDeal" v-for="(deal, index) in deals" @click="setActiveDeal(index)">
-      <i :class="{'isActive' : activeDeal == index }" class="icon"></i>
+    <div :class="{'isActive' : activeDeal.dealId == deal.dealId }" class="cnbDeal" v-for="(deal, index) in deals" @click="setActiveDeal(deal, index)">
+      <i :class="{'isActive' : activeDeal.dealId == deal.dealId }" class="icon"></i>
       <h2 class="cnbDeal__id">
         <strong>Acordo</strong> {{ deal.dealId }}
       </h2>
@@ -20,18 +20,18 @@
             </span>
           </p>
           <p>
-            <strong> Data </strong> <span class="date blue1"> {{ deal.dealDate }}</span>
+            <strong> Data </strong> <span class="date blue1"> {{ deal.dealDate | toBRDate }}</span>
           </p>
         </div>
         <div class="cnbDeal__logo cnbDeal__section">
           <img :src="getProductLogo(deal.productImg)" :alt="deal.productName">
         </div>        
         
-        <div class="cbnDeal__installments">
+        <div class="cnbDeal__paymentStatus">
           <p>
             Parcelas quitadas
           </p>
-          <ul>
+          <ul class="listDefault">
             <li v-for="(inst, i) in deal.dealInstallments">
               <i :class="inst.status" class="installment-status">
               <span class="hide">{{ inst.status }}</span>
@@ -40,31 +40,85 @@
           </ul>
         </div>
       </div>
-      <div class="cnbDeal__installments" v-show="activeDeal == index">
-        <div class="installment" v-for="(installment, ind) in deal.dealInstallments" v-if="installment.status !== 'paga'">
-          <p class="lside">
-            {{ installment.installmentNum }}ª Parcela
-          </p>
-          <p class="rside">
-            Vencimento: <strong class="green1"> {{ installment.dueDate }}</strong>
-          </p>
-          <p class="lside paymentStatus">
-            <span :class="installment.status">
-              {{ installment.status }}
-            </span>
-          </p>
-          <p class="lside money">
-            <span class="blue1">
-              {{ installment.value |toMoney }} {{ ind }}
-            </span>
-          </p>
+      <transition name="reveal-down">
+
+        <div class="cnbDeal__installments" v-show="activeDeal.dealId == deal.dealId">
+          <div class="installment" v-for="(installment, ind) in filterInstallments(deal.dealInstallments)" v-if="installment.status !== 'paga'">
+            <p class="lside">
+              {{ installment.installmentNum }}ª Parcela
+            </p>
+            <p class="rside">
+              Vencimento: <strong class="green1"> {{ installment.dueDate| toBRDate }}</strong>
+            </p>
+            <p class="lside paymentStatus">
+              <span :class="installment.status">
+                {{ installment.status }}
+              </span>
+            </p>
+            <p class="lside money">
+              <span class="blue1">
+                {{ installment.value |toMoney }}
+              </span>
+            </p>
+            <div class="btnHolder">
+              <!-- mostrar apenas para a parcela aberta -->
+              <button class="btnDefault smaller bgblue1 altcolor" v-if="ind == 0">
+                Pagar
+              </button>
+            </div>
+          </div>
           <div class="btnHolder">
-            <button class="btnDefault smaller bgblue1 altcolor" v-if="installment.status !== paga">
-              Pagar
+            <button class="btnDefault smaller bgblue4" @click="openModal()">
+              Detalhes da Dívida
             </button>
           </div>
         </div>
-      </div>
+      </transition> 
     </div>
   </div>
+  <CnbModal ref="detailsModal">
+    <button class="modalClose" @click="closeModal()">
+      Fechar
+    </button>
+    <div class="dealDetails">
+      <div class="boxRounded dealLogo">
+        <img :src="getProductLogo(activeDeal.productImg)" :alt="activeDeal.productName">
+      </div>
+      <div class="boxRounded dealValue">
+        <strong class="money purple2">
+          {{ activeDeal.dealValue | toMoney }}
+        </strong>
+      </div>
+      <div class="boxRounded dealDesc">
+        <ul class="listDefault">
+          <li v-for="prod in activeDeal.dealDetails">
+            <p class="prodName">
+              {{ prod.description }}
+            </p>
+            <div class="side">
+              <p>
+                <strong class="blue1">
+                  Título
+                </strong>
+                {{ prod.id }}
+              </p>
+              <p>
+                <strong class="blue1">
+                  Saldo
+                </strong>
+                {{ prod.value | toMoney }}
+              </p>
+
+            </div>
+            <p class="side">
+              <strong class="blue1">
+                Data da Dívida
+              </strong>
+              {{ prod.date | toBRDate }}
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </CnbModal>
 </div>

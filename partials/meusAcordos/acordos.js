@@ -1,9 +1,13 @@
 import { mapGetters } from 'vuex'
+import CnbModal from '@/components/cnb-modal'
 
 export default {
+  components: {
+    CnbModal
+  },
   data () {
     return {
-      activeDeal: null
+      activeDeal: {}
     }
   },
   computed: {
@@ -24,8 +28,20 @@ export default {
       const images = require.context('../../assets/img/logos/', false, /\.svg$/)
       return images('./' + logo + '.svg')
     },
-    setActiveDeal (deal) {
-      this.activeDeal === deal ? this.activeDeal = null : this.activeDeal = deal
+    setActiveDeal (deal, index) {
+      this.activeDeal.dealId === index ? this.activeDeal = {} : this.activeDeal = deal
+    },
+    filterInstallments (inst) {
+      return inst.filter(ins => ins.status !== 'paga')
+    },
+    /**
+     * Envia um pedido para o componente modal
+     */
+    openModal () {
+      this.$refs.detailsModal.showModal()
+    },
+    closeModal () {
+      this.$refs.detailsModal.closeModal()
     }
   },
   mounted () {

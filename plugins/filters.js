@@ -20,6 +20,8 @@ Vue.filter('toStringMoney', function (value) {
 
 Vue.filter('toBRDate', function (value) {
   if (!value) { return '' }
+  const _date = new Date(value)
+  return _date.toLocaleDateString()
 })
 
 Vue.filter('trim', function (value, limit = 30) {
