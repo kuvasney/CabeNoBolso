@@ -31,7 +31,8 @@ export default {
   },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/filters.js'
+    '@/plugins/filters.js',
+    '@/plugins/utils.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,7 +57,7 @@ export default {
     baseURL: '/'
   },
   router: {
-    base: '/work/CabeNoBolso'
+    base: process.env.NUXT_ENV_SETUP === 'production' ? '/work/CabeNoBolso' : '/'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
