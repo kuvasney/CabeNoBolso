@@ -1,0 +1,28 @@
+{
+  "installments": [
+    {
+      "installmentNum": 1,
+      "installmentVal": 2099.99,
+      "discount": 100.00,
+      "total": 2099.99
+    },
+    {
+      "installmentNum": 2,
+      "installmentVal": 454.99,
+      "discount": 90.00,
+      "total": 909.99
+    },        
+    {
+      "installmentNum": 5,
+      "installmentVal": 189.99,
+      "discount": 50.00,
+      "total": 949.99
+    },
+    {
+      "installmentNum": 10,
+      "installmentVal": 99.90,
+      "discount": 0,
+      "total": 2099.99
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<div class="pagewrap pagein">
+  <section class="activeOffer">
+    <div class="productLogo">      
+      <img :src="getProductLogo(activeOffer.productImg)" alt="">
+    </div>
+    <div class="value">
+      <strong class="money purple2">
+        {{ activeOffer.debt.value | toMoney }}
+      </strong>
+    </div>
+  </section>
+  <section class="availableOffers">
+    <div v-for="(installment, index) in availableOffers" class="installments">      
+      <label :for="installment.installmentNum" class="radioHolder">
+        <input :id="installment.installmentNum " name="singleOffer[]" v-model="singleOffer" :value="installment.installmentNum "
+          @click="handlePickedOffer(installment)" type="radio" class="hide" />
+        <span class="fakeCheck">
+          <i class="check" v-show="installment.installmentNum === selectedOffer.installmentNum" />
+        </span>
+      </label>
+      <div class="installment avista" v-if="installment.installmentNum === 1">
+        <label :for="installment.installmentNum"  class="installmentValues">
+          <span class="label">
+            À VISTA
+          </span>
+          <strong class="blue1 money">
+            {{ installment.installmentVal | toMoney }}
+          </strong>
+        </label>
+        <label :for="installment.installmentNum"  class="bestOffer">
+          Melhor Oferta
+        </label>
+      </div>
+      <div v-else class="installment">
+        <label :for="installment.installmentNum"  class="installmentNum">
+          <span class="label purple2">
+            {{ installment.installmentNum }}x
+          </span>
+        </label>
+        <label :for="installment.installmentNum"  class="installmentValues">
+          de
+          <strong class="blue1 money">
+            {{ installment.installmentVal | toMoney }}
+          </strong>
+        </label>
+      </div>
+    </div>    
+    <div class="btnHolder">
+      <button class="btnDefault smaller" @click="offerSelected()">
+        Continuar com a oferta selecionada
+      </button>
+    </div>
+  </section> 
+  <nuxt-link to="/metodo-de-pagamento" class="btnBack">
+    Voltar
+  </nuxt-link>
+</div>

@@ -1,0 +1,123 @@
+.activeOffer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $alt-color;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;  
+
+  .productLogo {
+    
+    img {
+      max-width: 26vw;    
+      height: auto;      
+    }
+  }
+
+  .value {
+    font-size: 2.5em;
+  }
+}
+
+.availableOffers {
+  margin-bottom: 2em;
+
+  .installments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $alt-color;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-size: 1.5em;    
+
+    .radioHolder {
+      width: 15%;
+      position: relative;
+    }
+
+    .installment {
+      width: 85%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .5em 0;
+    }
+
+    .bestOffer {
+      display: flex;
+      align-items: center;
+      color: $alt-color;
+      background-color: $blue1;
+      font-weight: 300;
+      width: 30vw;
+      text-align: center;      
+      font-size: 1em;
+      text-transform: uppercase;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .installmentNum {
+      width: 30%;
+      font-size: 2em;
+      font-weight: 600;
+    }
+
+    .installmentValues {
+      color: $blue1;
+      width: 70%;
+
+      strong {
+        font-size: 1.8em;
+      }
+    }
+
+    .avista {
+      align-items: stretch;
+      padding: 0;
+
+      .label {
+        color: $gray;
+        font-size: .8em;        
+        display: block;
+      }
+
+      .installmentValues {
+        width: 50%;
+        padding: .4em 0;
+
+        .money {
+          display: block;
+          line-height: .8;
+        }
+      }
+    }
+
+  }  
+}
+
+.fakeCheck {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  border: 1px solid $purple2;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  .check {
+    display: inline-block;
+    width: .5em;
+    height: .5em;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $purple3;
+  }
+}
