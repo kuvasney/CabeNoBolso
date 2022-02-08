@@ -85,8 +85,8 @@
   </section>
   <section class="payment-setup">
     <div class="boxRounded payment-setup__value">
-      <div class="companyLogo">
-        <img src="../../assets/img/logos/claro-movel.svg" alt="Claro TV">
+      <div class="companyLogo">        
+        <img :src="getProductLogo(activeOffer.productImg)" :alt="activeOffer.ProductName">
       </div>
       <div class="value">
         <p class="money purple2">
@@ -176,7 +176,7 @@
       <button class="btnDefault bgblue4 smaller" @click="closeModal()">
         Enviar nova proposta
       </button>
-      <button class="btnDefault transparent smaller">
+      <button class="btnDefault transparent smaller" @click="seeOffers()">
         Veja nossas ofertas
       </button>
     </div>

@@ -7,7 +7,7 @@
   </section>
   <section class="debts">
     
-    <div class="debts__debt" v-for="(divida, index) in MockDividas" @click="openDebt(divida)">
+    <div class="debts__debt" v-for="(divida, index) in offers" @click="openDebt(divida)">
       <div class="debt__logo">
         <img :src="getProductLogo(divida.productImg)" :alt="divida.ProductName">
       </div>

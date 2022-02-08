@@ -1,4 +1,7 @@
+import { mapGetters } from 'vuex'
 import CnbModal from '@/components/cnb-modal'
+import Utils from '@/plugins/utils.js'
+
 export default {
   name: 'metodo-de-pagamento',
   components: {
@@ -20,6 +23,11 @@ export default {
       proposalStaus: Number
     }
   },
+  computed: {
+    ...mapGetters({
+      activeOffer: 'offers/getActiveOffer'
+    })
+  },
   watch: {
   },
   methods: {
@@ -27,8 +35,13 @@ export default {
      * Starting methods for metodo-de-pagamento
      */
     init () {
-      this.paymentGadget.parcel = (this.debtValue / 2).toFixed(2)
-      this.setSpeedometer(50)
+      if (Object.keys(this.activeOffer).length > 0) {
+        this.debtValue = this.activeOffer.debt.value
+        this.paymentGadget.parcel = (this.activeOffer.debt.value / 2).toFixed(2)
+        this.setSpeedometer(50)
+      } else {
+        this.$router.push('/minhas-dividas')
+      }
     },
     /**
      * Set the parcel value
@@ -63,6 +76,21 @@ export default {
      */
     dealOk () {
       this.$router.push('/pagamento')
+    },
+    /**
+     * Get the logo URI
+     * @param {String} logo the logo name
+     * @returns string
+     */
+    getProductLogo (logo) {
+      return Utils.getProductLogo(logo)
+    },
+    /**
+     * Go to offers page
+     */
+    seeOffers () {
+      this.closeModal()
+      this.$router.push('/nossas-ofertas')
     },
     /**
      * Envia um pedido para o componente modal

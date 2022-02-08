@@ -6,18 +6,21 @@
     </h1>
   </section>
   <div class="deals">
-    <div :class="{'isActive' : activeDeal.dealId == deal.dealId }" class="cnbDeal" v-for="(deal, index) in deals" @click="setActiveDeal(deal, index)">
-      <i :class="{'isActive' : activeDeal.dealId == deal.dealId }" class="icon"></i>
-      <h2 class="cnbDeal__id">
+    <div :class="{'isActive' : activeDeal.dealId == deal.dealId, 'dealClosed': deal.dealStatus == 'Fechado' }" class="cnbDeal" v-for="(deal, index) in deals">
+      <h2 class="cnbDeal__id" @click="setActiveDeal(deal, index)">
         <strong>Acordo</strong> {{ deal.dealId }}
+        <i :class="{'isActive' : activeDeal.dealId == deal.dealId }" class="icon"></i>
       </h2>
-      <div class="cnbDeal__maininfo" :class="{'dealClosed': deal.dealStatus == 'Fechado'}">
+      <div class="cnbDeal__maininfo">
         <div class="cnbDeal__section">
-          <p>
+          <p v-if="deal.dealStatus !== 'Fechado'">
             Valor restante
             <span class="money blue1 br">
-              R$ 487,00
+              {{ getPaymentLeft(deal) | toMoney }}
             </span>
+          </p>
+          <p v-else>
+            Acordo quitado
           </p>
           <p>
             <strong> Data </strong> <span class="date blue1"> {{ deal.dealDate | toBRDate }}</span>
@@ -31,7 +34,7 @@
           <p>
             Parcelas quitadas
           </p>
-          <ul class="listDefault">
+          <ul :class="{'singleInst': deal.dealInstallments.length === 1}" class="listDefault">
             <li v-for="(inst, i) in deal.dealInstallments">
               <i :class="inst.status" class="installment-status">
               <span class="hide">{{ inst.status }}</span>
@@ -39,9 +42,8 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div>      
       <transition name="reveal-down">
-
         <div class="cnbDeal__installments" v-show="activeDeal.dealId == deal.dealId">
           <div class="installment" v-for="(installment, ind) in filterInstallments(deal.dealInstallments)" v-if="installment.status !== 'paga'">
             <p class="lside">
@@ -80,7 +82,7 @@
     <button class="modalClose" @click="closeModal()">
       Fechar
     </button>
-    <div class="dealDetails">
+    <div class="dealDetails" v-if="Object.keys(activeDeal).length > 0">
       <div class="boxRounded dealLogo">
         <img :src="getProductLogo(activeDeal.productImg)" :alt="activeDeal.productName">
       </div>

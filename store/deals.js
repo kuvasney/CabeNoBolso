@@ -6,7 +6,6 @@ export const state = () => ({
 
 export const actions = {
   loadDeals ({ commit, dispatch }) {
-    console.log('loading?')
     if (process.env.NUXT_ENV_SETUP !== 'nodata') {
       // later punk
     } else {

@@ -1,18 +1,34 @@
-import Dividas from '@/components/mocks/dividas.json'
+import { mapGetters } from 'vuex'
+import Utils from '@/plugins/utils.js'
 
 export default {
   data () {
     return {
-      MockDividas: Dividas
     }
   },
+  computed: {
+    ...mapGetters({
+      offers: 'offers/getOffers'
+    })
+  },
   methods: {
+    init () {
+      this.getOffers()
+    },
+    getOffers () {
+      if (this.offers.length < 1) {
+        this.$store.dispatch('offers/loadOffers')
+      }
+    },
     getProductLogo (logo) {
-      const images = require.context('../../assets/img/logos/', false, /\.svg$/)
-      return images('./' + logo + '.svg')
+      return Utils.getProductLogo(logo)
     },
     openDebt (debt) {
+      this.$store.commit('offers/setActiveOffer', debt)
       this.$router.push('/metodo-de-pagamento')
     }
+  },
+  mounted () {
+    this.init()
   }
 }

@@ -46,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
-  padding: .5em;
+  padding: .5em;  
 }
 
 .cnbDeal__section {
@@ -54,7 +54,8 @@
   align-self: center;
 
   .money {
-    font-size: 1.3em;
+    font-size: 1.4em;
+    margin-bottom: .5em;
   }
 }
 
@@ -71,6 +72,15 @@
   padding: .3em;
   border-radius: 20px;
   margin-bottom: 1em;
+  font-weight: 300;
+}
+
+.dealClosed {
+  background-color: rgba($gray, .2);
+
+  .cnbDeal__id {
+    background-color: rgba($gray, .4);
+  }
 }
 
 .cnbDeal__paymentStatus {
@@ -84,23 +94,29 @@
     justify-content: space-between;
     overflow: hidden;    
     width: 100%;
+    margin: .5em 0;
+    background: url('../../assets/img/gd.png') repeat-x center center;
+
+    &.singleInst {
+      justify-content: space-around;
+    }
 
     li {
       position: relative;
       z-index: 10;
       
-      &::after {
-        content: '';
-        display: inline-block;
-        width: 300px;
-        height: 2px;
-        background: $green1;
-        position: absolute;
-        left: 6vw;
-        top: 50%;
-        transform: translate(0, -50%);
-        z-index: 9;
-      }
+      // &::after {
+      //   content: '';
+      //   display: inline-block;
+      //   width: 300px;
+      //   height: 2px;
+      //   background: $green1;
+      //   position: absolute;
+      //   left: 6vw;
+      //   top: 50%;
+      //   transform: translate(0, -50%);
+      //   z-index: 9;
+      // }
 
       &:last-child {
 
