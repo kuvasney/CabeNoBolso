@@ -24,6 +24,7 @@ export default {
 <style lang="scss">
   .page-footer {
     background-color: #a9aaad;
+    padding: .3em;
 
     .cnb-logo {
       margin: 1em auto;

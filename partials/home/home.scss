@@ -67,8 +67,9 @@
   width: 100%;  
   
   .homebottom__bg {
-    position: relative;  
+    position: absolute;  
     z-index: 10;
+    width: 100%;
 
     img {
       width: 100%;
@@ -76,11 +77,12 @@
     }
   }
   .homeintro {
-    position: absolute;
-    top: calc(12vh + 3em);
-    left: 50%;
+    position: relative;
     z-index: 90;    
+    // top: calc(12vh + 3em);
+    left: 50%;
     transform: translate(-50%, 0);
+    padding-top: calc(8vh + 3em);
     width: 80%;
     color: $alt-color;
   }
@@ -140,6 +142,8 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
+  position: relative;
+  z-index: 100;
   
   p {
     margin-bottom: 1em;

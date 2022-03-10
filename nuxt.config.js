@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Cabe No Bolso' || process.env.npm_package_name,
+    title: 'Cabe no seu Bolso' || process.env.npm_package_name,
     htmlAttrs: {
       lang: 'pt-BR'
     },

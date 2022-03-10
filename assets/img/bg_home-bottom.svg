@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -11,20 +11,19 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
+   id="Layer_1"
    x="0px"
    y="0px"
-   viewBox="0 0 720.55084 872.88135"
-   enable-background="new 0 0 720 1600"
+   viewBox="0 0 745.586 1829.9999"
    xml:space="preserve"
-   id="svg1830"
-   sodipodi:docname="bg_home-bottom.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   width="720.55084"
-   height="872.88135"><metadata
-   id="metadata1836"><rdf:RDF><cc:Work
+   sodipodi:docname="Fundo_Home-26.svg"
+   width="745.586"
+   height="1830"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata190"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-   id="defs1834" /><sodipodi:namedview
+   id="defs188" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -33,198 +32,395 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1366"
-   inkscape:window-height="724"
-   id="namedview1832"
-   showgrid="false"
-   inkscape:zoom="1.18"
-   inkscape:cx="370.49017"
-   inkscape:cy="554.73636"
-   inkscape:window-x="0"
+   inkscape:window-width="1920"
+   inkscape:window-height="1025"
+   id="namedview186"
+   showgrid="true"
+   inkscape:zoom="1.9256681"
+   inkscape:cx="767.77634"
+   inkscape:cy="1809.7447"
+   inkscape:window-x="2966"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_3"
-   showguides="true"
-   inkscape:guide-bbox="true"><sodipodi:guide
-     position="-0.84745765,1158.4745"
-     orientation="1,0"
-     id="guide843"
-     inkscape:locked="false" /><sodipodi:guide
-     position="721.18644,897.45758"
-     orientation="1,0"
-     id="guide845"
-     inkscape:locked="false" /><sodipodi:guide
-     position="594.91525,872.88131"
-     orientation="0,1"
-     id="guide847"
-     inkscape:locked="false" /></sodipodi:namedview>
+   inkscape:current-layer="g100"
+   showguides="true"><inkscape:grid
+     type="xygrid"
+     id="grid1020"
+     originx="-0.12982507"
+     originy="-1.972656e-05" /></sodipodi:namedview>
+<style
+   type="text/css"
+   id="style2">
+	.st0{clip-path:url(#SVGID_00000087398377219185359550000005685155028218696351_);}
+	.st1{fill:url(#SVGID_00000132049386833042011920000008429758811526033584_);}
+	.st2{clip-path:url(#SVGID_00000089542001223167375450000004521763733740952216_);}
+	.st3{fill:url(#SVGID_00000038395344563092962080000002617148843535217550_);}
+	.st4{clip-path:url(#SVGID_00000036935810044204249880000014553363034594464651_);}
+	.st5{fill:url(#SVGID_00000016064568111658231760000016077840790087318704_);}
+	.st6{clip-path:url(#SVGID_00000160152491057748924740000000618997526838624175_);}
+	.st7{fill:url(#SVGID_00000137831500762057211780000013198457179137705097_);}
+	.st8{fill:url(#SVGID_00000010993997421872322290000015636814889158013616_);}
+	.st9{fill:url(#SVGID_00000036253653058464609820000009458181414385664923_);}
+	.st10{opacity:0.44;clip-path:url(#SVGID_00000048497816259631077430000003497718927847801522_);}
+	.st11{fill:url(#SVGID_00000106137884379254031120000000492079897876024223_);}
+	.st12{clip-path:url(#SVGID_00000088099208127684837200000013446231472724779143_);}
+	.st13{fill:url(#SVGID_00000005952299364883196640000005534890797219182267_);}
+	.st14{clip-path:url(#SVGID_00000173864260266748770980000003937266431027369393_);}
+	.st15{fill:url(#SVGID_00000078002390128352007830000016626308803866662845_);}
+	.st16{clip-path:url(#SVGID_00000012443697867090966490000007453351214267442841_);}
+	.st17{fill:url(#SVGID_00000106117534754938034110000000378470473433530019_);}
+</style>
 <g
-   id="Layer_3"
-   transform="translate(-0.84745765,-727.22833)">
+   id="g104"
+   transform="translate(-0.12982507,-762.20605)">
+	
 	
 	<g
-   id="g1826"
-   transform="matrix(1.0076395,0,0,1,-3.4354634,0)">
+   id="g59">
 		<defs
-   id="defs1741">
-			<rect
-   id="SVGID_00000069359639297152218670000009439148702716003499_"
-   width="720"
-   height="1600"
-   x="0"
-   y="0" />
+   id="defs43">
+			<path
+   id="SVGID_00000119828614233709018240000012813136390861592766_"
+   d="M 746,0 H 0 v 2150.4 c 170,-96.5 521.2,137.1 746,0 z"
+   inkscape:connector-curvature="0" />
 		</defs>
 		<clipPath
-   id="SVGID_00000049931599770201061210000017183678290597032364_">
+   id="SVGID_00000052076745155360042490000004852594372986912943_">
 			<use
-   xlink:href="#SVGID_00000069359639297152218670000009439148702716003499_"
-   overflow="visible"
-   id="use1743"
+   xlink:href="#SVGID_00000119828614233709018240000012813136390861592766_"
    style="overflow:visible"
+   id="use45"
    x="0"
    y="0"
    width="100%"
    height="100%" />
 		</clipPath>
 		
-		
-		
+	</g>
+	<g
+   id="g102">
+		<defs
+   id="defs62">
+			<path
+   id="SVGID_00000031885595211674511020000011076621674745402767_"
+   d="M 746,0 H 0 v 2150.4 c 170,-96.5 521.2,137.1 746,0 z"
+   inkscape:connector-curvature="0" />
+		</defs>
+		<clipPath
+   id="SVGID_00000176011311423650024150000011551749934678248363_">
+			<use
+   xlink:href="#SVGID_00000031885595211674511020000011076621674745402767_"
+   style="overflow:visible"
+   id="use64"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</clipPath>
 		<g
-   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
-   id="g1796">
-			
-				<image
-   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
-   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6520.png"
-   overflow="visible"
-   width="1493"
-   height="705"
-   transform="translate(-321.0444,630.9556)"
-   id="image1785"
-   style="overflow:visible;opacity:0.3">
-			</image>
+   clip-path="url(#SVGID_00000176011311423650024150000011551749934678248363_)"
+   id="g100">
 			<g
-   id="g1794">
-				
-					<linearGradient
-   id="SVGID_00000024703104031032656110000013637403295230410922_"
+   id="g76">
+				<g
+   id="g74">
+					
+						<linearGradient
+   id="SVGID_00000103972286851973713300000017158719236989259967_"
    gradientUnits="userSpaceOnUse"
-   x1="4144.5928"
-   y1="3154.0212"
-   x2="5571.0034"
-   y2="3154.0212"
-   gradientTransform="rotate(180,2638.5417,2065.6148)">
-					<stop
+   x1="5882.4956"
+   y1="-2403.0203"
+   x2="7373.4956"
+   y2="-2403.0203"
+   gradientTransform="matrix(-1,0,0,1,7063.3955,3403.8203)">
+						<stop
    offset="0"
    style="stop-color:#C7DAC7"
-   id="stop1787" />
-					<stop
+   id="stop67" />
+						<stop
    offset="1"
    style="stop-color:#55CCD4"
-   id="stop1789" />
-				</linearGradient>
-				<path
-   d="M 1132.5,657.8 C 1085.5,756.5 979.6,820 875.6,811.7 770.7,803.3 673.8,729.6 569.3,741.8 448.2,755.9 357.6,881.1 236.3,892.5 113,904 0.8,794 -122.3,807 c -81.3,8.6 -153.9,76.8 -171.6,161.5 v 328.2 h 1426.4 z"
-   id="path1792"
-   inkscape:connector-curvature="0"
-   style="fill:url(#SVGID_00000024703104031032656110000013637403295230410922_)" />
+   id="stop69" />
+					</linearGradient>
+					<path
+   style="fill:url(#SVGID_00000103972286851973713300000017158719236989259967_)"
+   d="M 1180.9,686.1 C 1131.8,783.4 1021,845.9 912.4,837.7 802.8,829.5 701.4,756.8 592.2,768.8 465.6,782.7 370.9,906.1 244,917.3 c -128.8,11.4 -246.1,-97 -374.7,-84.2 -85,8.4 -160.8,75.7 -179.4,159.1 v 323.3 h 1491 z"
+   id="path72"
+   inkscape:connector-curvature="0" />
+				</g>
 			</g>
-		</g>
-		<g
-   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
-   id="g1809">
-			
-				<image
-   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
-   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6521.png"
-   overflow="visible"
-   width="1487"
-   height="443"
-   transform="translate(-457.0444,671.9556)"
-   id="image1798"
-   style="overflow:visible;opacity:0.3">
-			</image>
 			<g
-   id="g1807">
-				
-					<linearGradient
-   id="SVGID_00000137816208987231761260000004891849888562306977_"
+   id="g87">
+				<g
+   id="g85">
+					
+						<linearGradient
+   id="SVGID_00000055666802226427403620000008221027771363871162_"
    gradientUnits="userSpaceOnUse"
-   x1="4286.9141"
-   y1="3244.2156"
-   x2="5706.3931"
-   y2="3244.2156"
-   gradientTransform="rotate(180,2638.5417,2065.6148)">
-					<stop
+   x1="6031.1953"
+   y1="-2491.928"
+   x2="7514.9956"
+   y2="-2491.928"
+   gradientTransform="matrix(-1,0,0,1,7063.3955,3403.8203)">
+						<stop
    offset="0"
    style="stop-color:#FFA5D8"
-   id="stop1800" />
-					<stop
+   id="stop78" />
+						<stop
    offset="1"
    style="stop-color:#B2D7C9"
-   id="stop1802" />
-				</linearGradient>
-				<path
-   d="m -429.3,756.6 c 43.4,-60 128.2,-69.5 195.6,-44.7 67.3,24.8 122.3,76.4 178.5,122.9 56.1,46.5 119.1,90.6 190.2,95.7 99.4,7.2 193.3,-63 292.5,-54.4 64.8,5.6 126.3,44.7 190.8,36.6 47,-5.9 87.7,-36.2 125,-67.1 37.3,-30.9 74.6,-64.3 119.9,-78.6 45.3,-14.3 101.7,-3.6 126.9,38.8 v 269.1 H -429.3 Z"
-   id="path1805"
-   inkscape:connector-curvature="0"
-   style="fill:url(#SVGID_00000137816208987231761260000004891849888562306977_)" />
+   id="stop80" />
+					</linearGradient>
+					<path
+   style="fill:url(#SVGID_00000055666802226427403620000008221027771363871162_)"
+   d="m -451.6,783.4 c 45.3,-59.1 134,-68.5 204.4,-44 70.4,24.5 127.8,75.2 186.5,121.1 58.7,45.8 124.5,89.2 198.9,94.3 103.9,7.1 202,-62.1 305.8,-53.6 67.7,5.5 132,44.1 199.5,36 49.1,-5.9 91.7,-35.6 130.6,-66.1 38.9,-30.5 78,-63.3 125.4,-77.4 47.4,-14.1 106.3,-3.6 132.7,38.2 V 1097 H -451.6 Z"
+   id="path83"
+   inkscape:connector-curvature="0" />
+				</g>
 			</g>
-		</g>
-		<g
-   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
-   id="g1822">
-			
-				<image
-   sodipodi:absref="/home/rafael/_Trabalho/CabeNoBolso/assets/img/../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
-   xlink:href="../../../_Materiais/CabeNoBolso/Assets/E01E6526.png"
-   overflow="visible"
-   width="1438"
-   height="816"
-   transform="translate(-408.0444,846.9556)"
-   id="image1811"
-   style="overflow:visible;opacity:0.3">
-			</image>
 			<g
-   id="g1820">
-				
-					<linearGradient
-   id="SVGID_00000096778930033514633040000006980789323491448988_"
+   id="g98">
+				<g
+   id="g96">
+					
+						<linearGradient
+   id="SVGID_00000074442765798413759430000002620331358092629890_"
    gradientUnits="userSpaceOnUse"
-   x1="599.34149"
-   y1="1656.6782"
-   x2="184.9521"
-   y2="1095.5796">
-					<stop
+   x1="733.01617"
+   y1="578.03522"
+   x2="132.50751"
+   y2="1391.1462"
+   gradientTransform="matrix(1,0,0,-1,0,2774)">
+						<stop
    offset="0"
    style="stop-color:#BE9DDF"
-   id="stop1813" />
-					<stop
+   id="stop89" />
+						<stop
    offset="1"
    style="stop-color:#7EB8DA"
-   id="stop1815" />
-				</linearGradient>
-				<path
-   d="m -380.5,979.6 c 43.1,-35.1 103.9,-32.6 156.5,-18.1 52.6,14.5 103.2,39.4 157.4,44.1 123.5,10.6 236.1,-84.8 360,-87 120.2,-2.1 234.8,83.9 353.1,61.4 60.1,-11.5 112.2,-49.7 167.5,-77.1 55.4,-27.4 123.2,-43.3 175.8,-10.4 v 730.1 H -380.5 Z"
-   id="path1818"
-   inkscape:connector-curvature="0"
-   style="fill:url(#SVGID_00000096778930033514633040000006980789323491448988_)" />
+   id="stop91" />
+					</linearGradient>
+					<path
+   style="fill:url(#SVGID_00000074442765798413759430000002620331358092629890_)"
+   d="m -400.6,1003.2 c 45.1,-34.7 108.6,-32.2 163.6,-17.8 55,14.4 107.9,38.9 164.5,43.4 129.1,10.5 246.8,-83.5 376.3,-85.7 125.6,-2.1 245.4,82.7 369.1,60.5 62.9,-11.3 117.2,-49 175.1,-76 57.9,-27 128.7,-42.7 183.7,-10.2 V 2344 H -400.6 Z"
+   id="path94"
+   inkscape:connector-curvature="0" />
+				</g>
 			</g>
 		</g>
-		
-			<rect
-   x="2.7"
-   y="-38.599998"
-   transform="rotate(-180,359.5739,812.343)"
-   clip-path="url(#SVGID_00000049931599770201061210000017183678290597032364_)"
-   width="713.70001"
-   height="1701.9"
-   id="rect1824"
-   style="fill:none" />
 	</g>
 </g>
 <g
-   id="Layer_1"
-   transform="translate(-0.84745765,-727.22833)">
+   id="g182"
+   transform="translate(-0.12982507,-762.20605)">
+	<g
+   id="g123">
+		<defs
+   id="defs107">
+			<path
+   id="SVGID_00000118361208697941944960000013415435359832326564_"
+   d="m 0,2577.2 c 251.2,63.5 407.8,-101.5 746,0 V 1815.1 H 0 Z"
+   inkscape:connector-curvature="0" />
+		</defs>
+		<clipPath
+   id="SVGID_00000104689887427265225050000007475566360566237349_">
+			<use
+   xlink:href="#SVGID_00000118361208697941944960000013415435359832326564_"
+   style="overflow:visible"
+   id="use109"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</clipPath>
+		<g
+   style="opacity:0.43999999"
+   clip-path="url(#SVGID_00000104689887427265225050000007475566360566237349_)"
+   id="g121">
+			<g
+   id="g119">
+				
+					<linearGradient
+   id="SVGID_00000170957553979603603670000011816172018517355946_"
+   gradientUnits="userSpaceOnUse"
+   x1="19146.002"
+   y1="-4069.6262"
+   x2="20504.701"
+   y2="-4069.6262"
+   gradientTransform="matrix(1,0,0,-1,-19291.502,-2031.3125)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop112" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop114" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_00000170957553979603603670000011816172018517355946_)"
+   d="M 1213.2,2137.9 C 1121,2139.7 1042,2075.9 972.5,2015.3 903,1954.6 825,1890.1 732.8,1890 c -68,-0.1 -130.1,35.2 -191.2,65.2 -61.1,30 -130.7,55.7 -195.7,35.7 -34.4,-10.6 -65.3,-33.7 -101.2,-36.9 -40.4,-3.6 -80.3,18.7 -120.4,12.9 -36.9,-5.4 -66.1,-33.3 -90.7,-61.4 -24.6,-28.1 -48.7,-58.9 -82.9,-73.7 -34.3,-14.8 -82.2,-5.9 -96.2,28.7 v 391.2 h 1358.7 z"
+   id="path117"
+   inkscape:connector-curvature="0" />
+			</g>
+		</g>
+	</g>
+	<g
+   id="g142">
+		<defs
+   id="defs126">
+			<path
+   id="SVGID_00000060711556280361719080000009986725723038068629_"
+   d="m 0,2577.2 c 251.2,63.5 407.8,-101.5 746,0 V 1815.1 H 0 Z"
+   inkscape:connector-curvature="0" />
+		</defs>
+		<clipPath
+   id="SVGID_00000111893508415061469390000012695544630548326289_">
+			<use
+   xlink:href="#SVGID_00000060711556280361719080000009986725723038068629_"
+   style="overflow:visible"
+   id="use128"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</clipPath>
+		<g
+   clip-path="url(#SVGID_00000111893508415061469390000012695544630548326289_)"
+   id="g140">
+			<g
+   id="g138">
+				
+					<linearGradient
+   id="SVGID_00000102523514275482746450000009233406818280524211_"
+   gradientUnits="userSpaceOnUse"
+   x1="19075.902"
+   y1="-4210.7896"
+   x2="20504.701"
+   y2="-4210.7896"
+   gradientTransform="matrix(1,0,0,-1,-19291.502,-2031.3125)">
+					<stop
+   offset="0"
+   style="stop-color:#FFA5D8"
+   id="stop131" />
+					<stop
+   offset="1"
+   style="stop-color:#B2D7C9"
+   id="stop133" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_00000102523514275482746450000009233406818280524211_)"
+   d="m -215.6,1989.7 c 58.7,-35.4 134.8,-16.9 196.9,12.2 62.1,29.1 122.2,68.5 190.6,73.4 68.8,5 135.1,-26 203.9,-31.8 81,-6.9 160.4,21.3 238.3,44.6 77.9,23.3 162.2,42 239.5,16.8 64.8,-21.1 115.9,-70.1 170.7,-110.6 54.8,-40.5 122.6,-74.6 188.9,-58.8 v 491.9 H -215.6 Z"
+   id="path136"
+   inkscape:connector-curvature="0" />
+			</g>
+		</g>
+	</g>
+	<g
+   id="g161">
+		<defs
+   id="defs145">
+			<path
+   id="SVGID_00000138547611352260160300000010491557599708832395_"
+   d="m 0,2577.2 c 251.2,63.5 407.8,-101.5 746,0 V 1815.1 H 0 Z"
+   inkscape:connector-curvature="0" />
+		</defs>
+		<clipPath
+   id="SVGID_00000132059640315516868830000009177278781383296651_">
+			<use
+   xlink:href="#SVGID_00000138547611352260160300000010491557599708832395_"
+   style="overflow:visible"
+   id="use147"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</clipPath>
+		<g
+   clip-path="url(#SVGID_00000132059640315516868830000009177278781383296651_)"
+   id="g159">
+			<g
+   id="g157">
+				
+					<linearGradient
+   id="SVGID_00000138573009401767381300000012305933895947230083_"
+   gradientUnits="userSpaceOnUse"
+   x1="19355.502"
+   y1="-4143.9629"
+   x2="20329.602"
+   y2="-4143.9629"
+   gradientTransform="matrix(1,0,0,-1,-19291.502,-2031.3125)">
+					<stop
+   offset="0"
+   style="stop-color:#C7DAC7"
+   id="stop150" />
+					<stop
+   offset="1"
+   style="stop-color:#55CCD4"
+   id="stop152" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_00000138573009401767381300000012305933895947230083_)"
+   d="m 64,2280.1 c 29.4,-79.1 106.6,-138.2 190.7,-145.9 60.8,-5.6 120.7,13.6 180.5,26.2 59.8,12.6 125.7,17.8 178.6,-12.7 21.2,-12.2 39.2,-29.6 61,-40.7 72,-36.6 160.6,4.8 239.2,-13.4 67.4,-15.6 120.7,-79.3 124.1,-148.4 v 334.9 H 64"
+   id="path155"
+   inkscape:connector-curvature="0" />
+			</g>
+		</g>
+	</g>
+	<g
+   id="g180">
+		<defs
+   id="defs164">
+			<path
+   id="SVGID_00000181793049157943291490000014820994679985336739_"
+   d="m 0,2577.2 c 251.2,63.5 407.8,-101.5 746,0 V 1815.1 H 0 Z"
+   inkscape:connector-curvature="0" />
+		</defs>
+		<clipPath
+   id="SVGID_00000023283340752333540210000015366795859086216632_">
+			<use
+   xlink:href="#SVGID_00000181793049157943291490000014820994679985336739_"
+   style="overflow:visible"
+   id="use166"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</clipPath>
+		<g
+   clip-path="url(#SVGID_00000023283340752333540210000015366795859086216632_)"
+   id="g178">
+			<g
+   id="g176">
+				
+					<linearGradient
+   id="SVGID_00000017514540792536940430000008546942124287985063_"
+   gradientUnits="userSpaceOnUse"
+   x1="18892.201"
+   y1="-4876.3926"
+   x2="20129.201"
+   y2="-4876.3926"
+   gradientTransform="matrix(1,0,0,-1,-19291.502,-2031.3125)">
+					<stop
+   offset="0"
+   style="stop-color:#BE9DDF"
+   id="stop169" />
+					<stop
+   offset="1"
+   style="stop-color:#7EB8DA"
+   id="stop171" />
+				</linearGradient>
+				<path
+   style="fill:url(#SVGID_00000017514540792536940430000008546942124287985063_)"
+   d="m -399.3,3482.5 c 108.5,-1303.1 402,-1330.2 526.2,-1320.2 65.7,5.3 127.6,31.2 189.9,52.7 62.3,21.5 128.8,39 193.5,26.8 54.2,-10.2 104.6,-40.8 159.7,-40.6 57.2,0.2 112.5,37.5 134.2,90.4 L 837.7,3529 Z"
+   id="path174"
+   inkscape:connector-curvature="0" />
+			</g>
+		</g>
+	</g>
+</g>
+<g
+   id="Layer_1_00000081632866408757051100000006978505005496352697_"
+   transform="translate(-0.12982507,-762.20605)">
 </g>
 </svg>
