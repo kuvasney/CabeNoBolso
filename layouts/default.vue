@@ -1,18 +1,18 @@
 <template>
   <div class="pagetemplate">
     <cnbHeader v-if="$route.fullPath !== '/'" />
-    <!-- Sidebar />
-    <loading-messages :active="isLoading" ref="loader"></loading-messages> -->
     <nuxt />
-    <!-- <Footer /> -->
+    <cnbFooter />
   </div>
 </template>
 <script>
 import cnbHeader from '~/components/header'
+import cnbFooter from '~/components/footer'
 export default {
   name: 'DefaultLayout',
   components: {
-    cnbHeader
+    cnbHeader,
+    cnbFooter
   }
 }
 </script>

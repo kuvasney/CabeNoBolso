@@ -3,7 +3,7 @@
     <li
       v-for="(item, index) in list"
       :key="index"
-      :class="{ isActive: faqActive == index }"
+      :class="{ isActive: faqActive === index }"
     >
       <p class="question" @click="faqActive = index">
         {{ item.question }}
@@ -11,10 +11,10 @@
       <div class="answer">
         <p
           v-for="(answer, ind) in item.answer"
-          v-show="faqActive == index"
+          v-show="faqActive === index"
           :key="ind"
         >
-          <span v-html="answer" />
+          <span>{{ answer }}</span>
         </p>
       </div>
     </li>
