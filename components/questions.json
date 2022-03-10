@@ -1,0 +1,109 @@
+{
+  "faq": [
+    {
+      "question": "O que é o Cabe no Seu Bolso?",
+      "answer": [
+        "É um portal que permite que você negocie sua dívida ativa com a Empresa de forma simples, rápida e segura, na hora e no lugar que desejar."
+      ]
+    },
+    {
+      "question": "Estou em dívida com a Empresa, mas não consigo acessar o portal Cabe no Seu Bolso para realizar meu acordo de negociação de dívida, por quê?",
+      "answer": [
+        "Existem algumas situações que também podem impossibilitar a negociação através do portal.",
+        "Neste caso, você deverá entrar em contato através da central de atendimento da Empresa através do telefone 10621"
+      ]
+    },
+    {
+      "question": "Como posso aproveitar as ofertas de negociação de dívida que a Empresa tem para mim?",
+      "answer": [
+        "Todos os contratos passíveis de negociação e faturas em atraso com a Empresa estarão disponíveis para seleção logo após a etapa de LOGIN.",
+        "Você poderá negociar cada um desses contratos exclusivamente de forma separada, ou seja, se possuir mais de uma dívida, terá que realizar um acordo para cada contrato em aberto no dia da consulta."
+      ]
+    },
+    {
+      "question": "Quais opções de negociação de dívidas com a Empresa eu tenho?",
+      "answer": [
+        "O Cabe no Seu Bolso analisou seu perfil com muita atenção para preparar as melhores ofertas para você! A sua melhor opção de acordo sempre estará destacada na tela de seleção e detalhes dos contratos. Mas nada lhe impede de escolher livremente entre as opções disponíveis!"
+      ]
+    },
+    {
+      "question": "Marquei a minha melhor opção de acordo para negociação de dívidas com a Empresa. Qual o próximo passo?",
+      "answer": [
+        "Selecionada a oferta, confira os dados da sua negociação.",
+        "Selecione uma data de vencimento para o acordo de negociação de dívidas com a Empresa. Lembre-se: se for pagamento parcelado, o dia de pagamento se repetirá nos próximos meses.",
+        "Informe seus dados (telefone ou e-mail). Esta é uma informação muito importante, pois é através do contato informado que lhe enviaremos o(s) boleto(s) para o pagamento.",
+        "Em seguida, clique no botão CONFIRMAR ACORDO."
+      ]
+    },
+    {
+      "question": "Como efetuo o pagamento da minha dívida com a Empresa?",
+      "answer": [
+        "Depois da confirmação do acordo, você receberá em seu meio de contato informado os dados necessários para pagamento (boleto).",
+        "Além disso, na confirmação do processo, você poderá verificar em tela os dados do acordo recém negociado (Número do Acordo, Valor do Acordo, Data de Vencimento e linha digitável), com a opção de copiar a linha digitável, facilitando o processo.",
+        "Aqui no Portal, você conseguirá gerar novamente a linha digital a qualquer momento, desde que o boleto ainda não esteja vencido."
+      ]
+    },
+    {
+      "question": "Quanto tempo terei para efetuar o pagamento de minha dívida com a Empresa?",
+      "answer": [
+        "Isto dependerá da data de vencimento que você escolher.",
+        "É importante manter os pagamentos em dia. Só assim você mantém as ótimas condições de sua negociação de dívidas com a Empresa.",
+        "Lembrando que, após o atraso, o acordo será rescindido, sendo necessária a formalização de um NOVO ACORDO."
+      ]
+    },
+    {
+      "question": "Em até quantas vezes posso parcelar minha dívida com a Empresa?",
+      "answer": [
+        "O portal calcula automaticamente a quantidade de parcelas, assim como as condições de negociação de dívidas com o seu perfil e o valor devido."
+      ]
+    },
+    {
+      "question": "Como posso verificar o que já foi pago do meu acordo de negociação de dívidas com a Empresa?",
+      "answer": [
+        "No MENU, clique em MEUS ACORDOS para saber se a parcela está paga ou ainda está em aberto. Nesta tela, você terá todas as informações do seu acordo de negociação de dívidas com a Empresa, como número da parcela, data de vencimento, valor e status."
+      ]
+    },
+    {
+      "question": "Como posso acompanhar meu acordo de negociação de dívidas com a Empresa?",
+      "answer": [
+        "No MENU, clique em MEUS ACORDOS para acompanhar seu acordo em detalhes: o número da parcela, a data de vencimento, o valor e se a parcela já está paga ou em aberto."
+      ]
+    },
+    {
+      "question": "Não consegui pagar meu boleto na data acordada. Como posso prorrogar o prazo para pagamento?",
+      "answer": [
+        "Após o atraso, o acordo será rescindido e será necessário a formalização de um NOVO ACORDO."
+      ]
+    },
+    {
+      "question": "Terei meu acordo cancelado se uma parcela não puder ser paga na data de vencimento?",
+      "answer": [
+        "Sim. Mediante atraso, o acordo de negociação de dívidas será rescindido, sendo necessária a formalização de um NOVO ACORDO."
+      ]
+    },
+    {
+      "question": "Posso transferir minha dívida com a Empresa para outra pessoa física ou jurídica?",
+      "answer": [
+        "Não. As dívidas e ofertas de negociação são pessoais e intransferíveis."
+      ]
+    },
+    {
+      "question": "Mudei o número de celular, como faço para atualizar?",
+      "answer": [
+        "Acesse o portal Cabe no Seu Bolso e no MENU clique em MEUS DADOS para fazer a atualização. É fundamental que você mantenha seus dados cadastrais sempre atualizados."
+      ]
+    },
+    {
+      "question": "Mudei ou tenho outro e-mail, como faço para atualizar?",
+      "answer": [
+        "Acesse o portal NEGOCIA FÁCIL O BOTICÁRIO e, no menu, clique em MEUS DADOS para fazer a atualização. É fundamental que você mantenha seus dados cadastrais sempre atualizados para continuar recebendo seus boletos e demais contatos relacionados ao acordo de negociação de dívidas com a Empresa."
+      ]
+    },
+    {
+      "question": "Eu não recebi meu boleto, o que devo fazer?",
+      "answer": [
+        "Acesse o portal Cabe no Seu Bolso e na aba MENU clique em MEUS ACORDOS. O boleto com a linha digitável ficará disponível para pagamento durante a vigência do acordo."
+      ]
+    }
+  ]
+}

@@ -8,35 +8,123 @@
   <div class="homeheader__content">
     <h1 class="cnb-logo">
       <img src="../../assets/img/cabenobolso_logo.svg" alt="">
-      <span>Cabe 
-        <span class="br">no Bolso</span>
+      <span>Cabe no seu Bolso</span>
       </span>
     </h1>
+    <h2 class="homeheader__call blue1">
+      Reinvente seu jeito de negociar
+    </h2>
   </div>
   <section class="homebottom">
     <div class="homebottom__bg">
       <img src="../../assets/img/bg_home-bottom.svg" alt="">
     </div>
-    <form class="login" @submit.prevent="login()">
-      <p class="pForm">
-        <label class="hide" for="Digite seu CPF"></label>
-        <input type="text" class="inpReg" placeholder="Digite seu CPF">
+    <div class="homeintro">
+      <form class="login" @submit.prevent="login()">
+        <p class="pForm">
+          <label class="hide" for="Digite seu CPF"></label>
+          <input type="text" class="inpReg" placeholder="Digite seu CPF">
+        </p>
+        <p class="pForm">
+          <label for="Terms" class="terms">
+            <input type="checkbox"> Li e aceito os Termos de Uso e a Política de Privacidade.
+          </label>
+        </p>
+        <p class="btnHolder">
+          <button class="btnDefault altcolor bgpurple2">
+            Consultar
+          </button>
+        </p>
+      </form>
+      <div class="homeintro__text centered">
+        <p>
+          O Cabe no seu Bolso oferece condições especiais para negociação de dívidas de forma simples e segura, 100% on-line.
+        </p>
+        <p class="blue1">
+          Aqui você decide o valor da parcela que cabe no seu bolso e faz a sua oferta.
+        </p>
+      </div>
+    </div>
+    <article class="cnb__about articleRegular">      
+      <div class="boxRounded centered">
+        <h2 class="titleArticle blue1">
+          Como Funciona?
+        </h2>
+        <ul class="howItWorks listDefault">
+          <li>
+            <div class="boxRounded iconbox">
+              <div class="icon">
+                <img src="../../assets/img/wallet.svg" alt="">
+              </div>
+            </div>
+            <h3>
+              Você escolhe quanto quer pagar
+            </h3>
+            <p>
+              Informe seus dados e escolha com qual empresa quer negociar.
+            </p>
+            <p class="boxRounded bgpurple3 purple2">
+              <strong>
+                Escolha o valor da parcela que cabe no seu bolso e envie a sua oferta para a empresa.
+              </strong>
+            </p>
+          </li>
+
+          <li>
+            <div class="boxRounded iconbox">
+              <div class="icon">
+                <img src="../../assets/img/hands.svg" alt="">
+              </div>
+            </div>
+            <h3>
+              Confirme a negociação
+            </h3>
+            <p>
+              Se sua proposta for aprovada, confirme a negociação. Um boleto será gerado para você realizar o pagamento. A negociação é 100% online!
+            </p>
+          </li>
+
+          <li>
+            <div class="boxRounded iconbox">
+              <div class="icon">
+                <img src="../../assets/img/pay.svg" alt="">
+              </div>
+            </div>
+            <h3>
+              Realize o pagamento
+            </h3>
+            <p>
+              Pronto! Agora é só fazer o pagamento do seu boleto através do internet banking, agências bancárias, correios ou lotéricas.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="whoWeAre articleRegular">
+      <h2 class="titleArticle blue1">
+        Quem Somos
+      </h2>
+      <p>
+        Somos a empresas que nasceu para te ajudar na negociação da sua dívida com bancos, cartões de créditos, crediários, telefonia e muito mais!
       </p>
-      <p class="pForm">
-        <label for="Terms" class="terms">
-          <input type="checkbox"> Li e aceito os Termos de Uso e a Política de Privacidade.
-        </label>
+      <p class="centered">
+        <strong class="blue1">
+          Vamos reconquistar a sua <span class="br">liberdade financeira?</span>
+        </strong>
       </p>
-      <p class="btnHolder">
-        <button class="btnDefault altcolor bgpurple2">
-          Consultar
-        </button>
+      <p><strong>
+        Pague sem sair de casa e parcele sua dívida.
+      </strong></p>
+      <p>
+        Nosso principal objetivo é desburocratizar a <strong>negociação de dívidas</strong>, tornando esse serviço fácil e acessível para todos. Para isso, toda a operação é feita online, para sua comodidade, sem a necessidade de ir até um estabelecimento ou fazer uma ligação, com total conforto e segurança.
       </p>
-    </form>
-    <p class="faq">
-      <a href="">
-        Ajuda/FAQ
-      </a>
-    </p>
+    </article>
+    <article class="faq articleRegular">
+      <h3 class="titleArticle blue1">
+        Perguntas frequentes
+      </h3>
+      <faq :list="faq"></faq>
+    </article>
   </section>
 </div>

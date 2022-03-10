@@ -69,20 +69,21 @@ export default {
     font-weight: 300;
     width: 65vw;
     font-size: 8vw;
-    padding: 1em .5em 0;
+    padding: .5em .5em 0;
+    line-height: .9;
 
     @include large {
-      width: 75%;
+      width: 60%;
       font-size: 4vw;
     }
 
     img {
-      width: 15vw;
+      width: 14vw;
       height: auto;
       margin-right: 15px;
 
       @include large {
-        width: 35%;
+        width: 20%;
       }
     }
 

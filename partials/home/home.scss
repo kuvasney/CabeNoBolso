@@ -1,6 +1,7 @@
 .pagewrap { 
   padding: 0;
   margin: 0;  
+  background-color: #f6f6f6;
 }
 
 .br {
@@ -9,6 +10,8 @@
 
 .homeheader {
   min-width: 100%;
+  max-width: 100%;
+  width: 100%;
   position: relative;
   z-index: 10;
   
@@ -48,6 +51,16 @@
   z-index: 90;  
 }
 
+.homeheader__call {
+  font-size: 5vw;
+  margin: .5em 1em;
+  
+  @include large {
+    font-size: 2.7em;
+  }
+  
+}
+
 .homebottom {
   position: relative;
   background-color: transparent;
@@ -62,8 +75,7 @@
       height: auto;
     }
   }
-
-  .login {    
+  .homeintro {
     position: absolute;
     top: calc(12vh + 3em);
     left: 50%;
@@ -71,6 +83,24 @@
     transform: translate(-50%, 0);
     width: 80%;
     color: $alt-color;
+  }
+
+  .homeintro__text {
+    padding: 2em 0;
+    font-size: 6vw;
+
+    @include large {
+      font-size: 3em;
+      padding: 2.4em 0;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+  }
+
+  .login {    
+    display: none;
 
     .inpReg {
       width: 100%;
@@ -91,15 +121,66 @@
   }
 }
 
-.faq {
-  position: absolute;
-  bottom: 20px;
-  text-align: center;
-  z-index: 90;
-  width: 100%;
+.iconbox {
 
-  a {
-    color: $alt-color;
-    text-decoration: none;
+  .icon {
+    width: 18vw;
+    height: 18vw;
+    margin: 0 auto;
+
+    @include large {
+      width: 10vw;
+    height: 10vw;
+    }
+  }
+
+}
+
+.articleRegular {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  
+  p {
+    margin-bottom: 1em;
+
+    @include large {
+      font-size: 1.2em;
+    }
   }
 }
+
+.titleArticle {
+  font-size: 2em;
+  margin-bottom: .4em;
+  white-space: normal;
+
+  @include large {
+    font-size: 3em;
+  }
+}
+
+.howItWorks {
+
+  h3 {
+    font-size: 5vw;
+    margin-bottom: .5em;
+
+    @include large {
+      font-size: 2em;
+    }
+  }
+}
+
+// .faq {
+//   position: absolute;
+//   bottom: 20px;
+//   text-align: center;
+//   z-index: 90;
+//   width: 100%;
+
+//   a {
+//     color: $alt-color;
+//     text-decoration: none;
+//   }
+// }

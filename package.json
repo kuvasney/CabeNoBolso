@@ -9,6 +9,7 @@
     "build-homol": "NUXT_ENV_SETUP=nodata nuxt build",
     "start": "nuxt start",
     "vdev": "NUXT_ENV_SETUP=dev nuxt --hostname localcabenobolso.com.br --port 3030",
+    "generate-homol": "NUXT_ENV_SETUP=nodata nuxt generate",
     "generate": "NUXT_ENV_SETUP=production nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
