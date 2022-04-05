@@ -1,13 +1,13 @@
 {
   "faq": [
     {
-      "question": "O que é o Cabe no Seu Bolso?",
+      "question": "O que é o Cabe no Meu Bolso?",
       "answer": [
         "É um portal que permite que você negocie sua dívida ativa com a Empresa de forma simples, rápida e segura, na hora e no lugar que desejar."
       ]
     },
     {
-      "question": "Estou em dívida com a Empresa, mas não consigo acessar o portal Cabe no Seu Bolso para realizar meu acordo de negociação de dívida, por quê?",
+      "question": "Estou em dívida com a Empresa, mas não consigo acessar o portal Cabe no Meu Bolso para realizar meu acordo de negociação de dívida, por quê?",
       "answer": [
         "Existem algumas situações que também podem impossibilitar a negociação através do portal.",
         "Neste caso, você deverá entrar em contato através da central de atendimento da Empresa através do telefone 10621"
@@ -23,7 +23,7 @@
     {
       "question": "Quais opções de negociação de dívidas com a Empresa eu tenho?",
       "answer": [
-        "O Cabe no Seu Bolso analisou seu perfil com muita atenção para preparar as melhores ofertas para você! A sua melhor opção de acordo sempre estará destacada na tela de seleção e detalhes dos contratos. Mas nada lhe impede de escolher livremente entre as opções disponíveis!"
+        "O Cabe no Meu Bolso analisou seu perfil com muita atenção para preparar as melhores ofertas para você! A sua melhor opção de acordo sempre estará destacada na tela de seleção e detalhes dos contratos. Mas nada lhe impede de escolher livremente entre as opções disponíveis!"
       ]
     },
     {
@@ -90,7 +90,7 @@
     {
       "question": "Mudei o número de celular, como faço para atualizar?",
       "answer": [
-        "Acesse o portal Cabe no Seu Bolso e no MENU clique em MEUS DADOS para fazer a atualização. É fundamental que você mantenha seus dados cadastrais sempre atualizados."
+        "Acesse o portal Cabe no Meu Bolso e no MENU clique em MEUS DADOS para fazer a atualização. É fundamental que você mantenha seus dados cadastrais sempre atualizados."
       ]
     },
     {
@@ -102,7 +102,7 @@
     {
       "question": "Eu não recebi meu boleto, o que devo fazer?",
       "answer": [
-        "Acesse o portal Cabe no Seu Bolso e na aba MENU clique em MEUS ACORDOS. O boleto com a linha digitável ficará disponível para pagamento durante a vigência do acordo."
+        "Acesse o portal Cabe no Meu Bolso e na aba MENU clique em MEUS ACORDOS. O boleto com a linha digitável ficará disponível para pagamento durante a vigência do acordo."
       ]
     }
   ]

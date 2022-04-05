@@ -2,7 +2,7 @@
   <div class="page-footer">
     <div class="cnb-logo">
       <img src="../assets/img/cabenobolso_logo.svg" alt="">
-      <span>Cabe no <span class="br">seu Bolso</span></span>
+      <span>Cabe no <span class="br">Meu Bolso</span></span>
     </div>
     <div class="page-footer__text">
       <p>
