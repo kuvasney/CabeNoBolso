@@ -5,17 +5,17 @@
       Método de pagamento
     </h1>
   </section>
-  <section class="payment-method hide">
+  <section class="payment-method" v-show="!dealIsSelected">
     <div class="debt-presentation">
       <div class="companyLogo">
-        <img src="../../assets/img/logos/claro-movel.svg" alt="Claro Movel">
+        <img :src="getProductLogo(activeOffer.productImg)" :alt="activeOffer.ProductName">
       </div>
       <div class="info">
-        <button class="btnDefault">
+        <button class="btnDefault" @click="handleDeal()">
           Renegociar
         </button>
         <p class="value money purple2">
-          R$ 882345,50
+          {{ debtValue | toMoney }}
         </p>
       </div>
     </div>
@@ -83,7 +83,7 @@
       </ul>
     </div>
   </section>
-  <section class="payment-setup">
+  <section class="payment-setup" v-show="dealIsSelected">
     <div class="boxRounded payment-setup__value">
       <div class="companyLogo">        
         <img :src="getProductLogo(activeOffer.productImg)" :alt="activeOffer.ProductName">

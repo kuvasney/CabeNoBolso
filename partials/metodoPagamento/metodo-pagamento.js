@@ -10,6 +10,7 @@ export default {
   data () {
     return {
       debtValue: 4832.66,
+      dealIsSelected: false,
       paymentGadget: {
         minValue: 1,
         parcel: Number,
@@ -42,6 +43,12 @@ export default {
       } else {
         this.$router.push('/minhas-dividas')
       }
+    },
+    /**
+     * @todo
+     */
+    handleDeal () {
+      this.dealIsSelected = true
     },
     /**
      * Set the parcel value
