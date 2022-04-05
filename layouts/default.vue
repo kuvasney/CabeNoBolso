@@ -50,9 +50,22 @@ export default {
     margin: 0 auto;
     background: #f6f6f6 url('../assets/img/bg_in.svg') no-repeat center top;
     background-size: 100% auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+
+    @include medium {
+      width: 800px;
+    }
 
     @include large {
-      width: 800px;
+      width: 1000px;
+    }
+
+    @include fhd {
+      width: 1200px;
     }
   }
 
